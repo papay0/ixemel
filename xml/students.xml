@@ -6,6 +6,16 @@
 		<lastName></lastName>
 		<birthDate></birthDate>
 		<year></year>
+		<cursus></cursus>
+		<group></group>
+		<subjects>
+			<subject id="0"/>
+			<subject id="1"/>
+		</subjects>
+		<marks>
+			<mark idSubject="0">17</mark>
+			<mark idSubject="1">20</mark>
+		</marks>
 	</student>
 </students>
 

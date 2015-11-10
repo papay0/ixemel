@@ -10,11 +10,11 @@
 		<group></group>
 		<subjects>
 			<subject id="0"/>
-			<subject id="1"/>
+			<subject id="2"/>
 		</subjects>
 		<marks>
 			<mark idSubject="0">17</mark>
-			<mark idSubject="1">20</mark>
+			<mark idSubject="2">20</mark>
 		</marks>
 	</student>
 </students>

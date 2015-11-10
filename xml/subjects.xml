@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<subjects>
+	<subject id="0">
+		<title>Software Engineering I</title>
+		<code>SE1</code>
+	</subject>
+	<subject id="1">
+		<title>Software Engineering II</title>
+		<code>SE2</code>
+	</subject>
+	<subject id="2">
+		<title>Software Engineering III</title>
+		<code>SE3</code>
+	</subject>
+</subjects>

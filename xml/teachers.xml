@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<teachers>
+	<teacher id="0">
+		<name>Delorme</name>
+		<surname>Gautier</surname>
+		<birthdate>04/03/1994</birthdate>
+		<grade>Professor</grade>
+		<subjects>
+			<subject id="0"/>
+			<subject id="1"/>
+		</subjects>
+	</teacher>
+	<teacher id="1">
+		<name>Papayo</name>
+		<surname>Arthur</surname>
+		<birthdate>03/04/1994</birthdate>
+		<grade>Doctor</grade>
+		<subjects>
+			<subject id="2"/>
+		</subjects>
+	</teacher>
+</teachers>

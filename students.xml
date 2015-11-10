@@ -1,1 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
+
+<students>
+	<student idStudent="1">
+		<firstName></firstName>
+		<lastName></lastName>
+		<birthDate></birthDate>
+		<year></year>
+	</student>
+</students>
+

@@ -1,3 +1,15 @@
 <?xml version="1.0"?>
 <xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+	<xs:complexType name="subjectType">
+		<xs:sequence>
+			<xs:element name="title" type="xs:string"/>
+			<xs:element name="code" type="xs:string"/>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="subjectsType">
+		<xs:sequence>
+			<xs:element name="subject" minOccurs="1" maxOccurs="unbounded" type="subjectType"/>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:element name="subjects" type="subjectsType"/>
 </xs:schema>

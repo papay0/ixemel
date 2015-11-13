@@ -1,8 +1,31 @@
 <?xml version="1.0"?>
 <xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+	<xs:simpleType name="gradeType">
+		<xs:restriction base="xs:string">
+			<xs:pattern value="Professor|Doctor"/>
+		</xs:restriction>
+	</xs:simpleType>
+	<xs:simpleType name="subjectType">
+		<xs:attribute name="id" type="xs:string"/>
+	</xs:simpleType>
+	<xs:complexType name="subjectsType">
+		<xs:sequence>
+			<xs:element name="subject" minOccurs="1" maxOccurs="unbounded" type="subjectType"/>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="teacherType">
+		<xs:sequence>
+			<xs:element name="name" type="xs:string"/>
+			<xs:element name="surname" type="xs:string"/>
+			<xs:element name="birthdate" type="xs:string"/>
+			<xs:element name="grade" type="gradeType"/>
+			<xs:element name="subjects" type="subjectsType"/>
+		</xs:sequence>
+	</xs:complexType>
 	<xs:complexType name="teachersType">
 		<xs:sequence>
 			<xs:element name="teacher" minOccurs="1" maxOccurs="unbounded" type="teacherType"/>
 		</xs:sequence>
 	</xs:complexType>
+	<xs:element name="teachers" type="teachersType"/>
 </xs:schema>

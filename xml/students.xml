@@ -5,9 +5,15 @@
 		<firstName></firstName>
 		<lastName></lastName>
 		<birthDate></birthDate>
+<<<<<<< HEAD
 		<year>4A</year>
 		<cursus>Informatique</cursus>
 		<group></group>
+=======
+		<year></year>
+		<cursus></cursus>
+		<group>IR_A</group>
+>>>>>>> 7a196dffb2753d2fe2da79b9ce5507d69f090971
 		<subjects>
 			<subject id="0"/>
 			<subject id="2"/>

@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="03754219-a7e6-4630-b902-44b0096786a8" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/xml/students.xml" afterPath="$PROJECT_DIR$/xml/students.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/xml/subjects.xml" afterPath="$PROJECT_DIR$/xml/subjects.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="ixemel.iws" />
     <ignored path=".idea/workspace.xml" />

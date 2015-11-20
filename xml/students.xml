@@ -5,8 +5,8 @@
 		<firstName></firstName>
 		<lastName></lastName>
 		<birthDate></birthDate>
-		<year></year>
-		<cursus></cursus>
+		<year>4A</year>
+		<cursus>Informatique</cursus>
 		<group></group>
 		<subjects>
 			<subject id="0"/>

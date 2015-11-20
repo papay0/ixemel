@@ -5,14 +5,19 @@
 			<xs:pattern value="Professor|Doctor"/>
 		</xs:restriction>
 	</xs:simpleType>
-	<xs:simpleType name="subjectType">
-		<xs:attribute name="id" type="xs:string"/>
-	</xs:simpleType>
-	<xs:complexType name="subjectsType">
-		<xs:sequence>
-			<xs:element name="subject" minOccurs="1" maxOccurs="unbounded" type="subjectType"/>
-		</xs:sequence>
-	</xs:complexType>
+	<xs:simpleType name="idAttribute">
+          <xs:restriction base="xs:integer">
+               <xs:minInclusive value="0"/>
+          </xs:restriction>
+     </xs:simpleType>
+	<xs:complexType name="subjectType">
+     	<xs:attribute name="id" type="idAttribute" use="required"/>
+     </xs:complexType>
+     <xs:complexType name="subjectsType">
+          <xs:sequence>
+               <xs:element name="subject" minOccurs="0" maxOccurs="unbounded" type="subjectType"/>
+          </xs:sequence>
+     </xs:complexType>
 	<xs:complexType name="teacherType">
 		<xs:sequence>
 			<xs:element name="name" type="xs:string"/>
@@ -21,6 +26,7 @@
 			<xs:element name="grade" type="gradeType"/>
 			<xs:element name="subjects" type="subjectsType"/>
 		</xs:sequence>
+		<xs:attribute name="id" type="idAttribute" use="required"/>
 	</xs:complexType>
 	<xs:complexType name="teachersType">
 		<xs:sequence>

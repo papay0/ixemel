@@ -1,10 +1,16 @@
 <?xml version="1.0"?>
 <xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+	<xs:simpleType name="idSubjectAttribute">
+          <xs:restriction base="xs:integer">
+               <xs:minInclusive value="0"/>
+          </xs:restriction>
+     </xs:simpleType>
 	<xs:complexType name="subjectType">
 		<xs:sequence>
 			<xs:element name="title" type="xs:string"/>
 			<xs:element name="code" type="xs:string"/>
 		</xs:sequence>
+		<xs:attribute name="id" type="idSubjectAttribute" use="required" />
 	</xs:complexType>
 	<xs:complexType name="subjectsType">
 		<xs:sequence>

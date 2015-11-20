@@ -1,0 +1,124 @@
+<?xml version="1.0"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+     <!--
+          ##########
+          ## OTHERS
+          ###########
+     -->
+
+     <xs:simpleType name="idType">
+          <xs:restriction base="xs:integer">
+               <xs:minInclusive value="0"/>
+          </xs:restriction>
+     </xs:simpleType>
+     <xs:complexType name="markType" mixed="true">
+          <xs:attribute name="idSubject" type="idType" use="required"/>
+     </xs:complexType>
+     <xs:complexType name="marksType">
+          <xs:sequence>
+               <xs:element name="mark" minOccurs="0" maxOccurs="unbounded" type="markType"/>
+          </xs:sequence>
+     </xs:complexType>
+     <xs:complexType name="cursusType">
+          <xs:sequence>
+               <xs:element name="cursus" minOccurs="0" maxOccurs="unbounded" type="xs:string"/>
+          </xs:sequence>
+     </xs:complexType>
+     <xs:complexType name="groupsType">
+          <xs:sequence>
+               <xs:element name="group" minOccurs="0" maxOccurs="unbounded" type="xs:string"/>
+          </xs:sequence>
+     </xs:complexType>
+
+     <!--
+          ##########
+          ## SUBJECTS
+          ###########
+     -->
+
+     <xs:complexType name="subjectType">
+          <xs:sequence>
+               <xs:element name="title" type="xs:string"/>
+               <xs:element name="code" type="xs:string"/>
+               <xs:element name="cursuss" type="cursusType"/>
+          </xs:sequence>
+          <xs:attribute name="id" type="idType" use="required" />
+     </xs:complexType>
+     <xs:complexType name="subjectsType">
+          <xs:sequence>
+               <xs:element name="subject" maxOccurs="unbounded" type="subjectType"/>
+          </xs:sequence>
+     </xs:complexType>
+     <xs:complexType name="subjectLinkType">
+          <xs:attribute name="id" type="idType" use="required"/>
+     </xs:complexType>
+     <xs:complexType name="subjectsLinkType">
+          <xs:sequence>
+               <xs:element name="subject" minOccurs="0" maxOccurs="unbounded" type="subjectLinkType"/>
+          </xs:sequence>
+     </xs:complexType>
+
+     <!--
+          ##########
+          ## STUDENTS
+          ###########
+     -->
+
+     <xs:complexType name="studentType">
+          <xs:sequence>
+               <xs:element name="firstName" type="xs:string"/>
+               <xs:element name="lastName" type="xs:string"/>
+               <xs:element name="birthDate" type="xs:string"/>
+               <xs:element name="year" type="xs:string"/>
+               <xs:element name="cursus" type="xs:string"/>
+               <xs:element name="group" type="xs:string"/>
+               <xs:element name="subjects" type="subjectsLinkType"/>
+               <xs:element name="marks" type="marksType"/>
+          </xs:sequence>
+          <xs:attribute name="id" type="idType" use="required"/>
+     </xs:complexType>
+    <xs:complexType name="studentsType">
+          <xs:sequence>
+               <xs:element name="student" maxOccurs="unbounded" type="studentType"/>
+          </xs:sequence>
+     </xs:complexType>
+
+     <!--
+          ##########
+          ## TEACHERS
+          ###########
+     -->
+
+     <xs:simpleType name="gradeType">
+          <xs:restriction base="xs:string">
+               <xs:pattern value="Professor|Doctor"/>
+          </xs:restriction>
+     </xs:simpleType>
+     <xs:complexType name="teacherType">
+          <xs:sequence>
+               <xs:element name="name" type="xs:string"/>
+               <xs:element name="surname" type="xs:string"/>
+               <xs:element name="birthdate" type="xs:string"/>
+               <xs:element name="grade" type="gradeType"/>
+               <xs:element name="subjects" type="subjectsLinkType"/>
+               <xs:element name="groups" type="groupsType"/>
+          </xs:sequence>
+          <xs:attribute name="id" type="idType" use="required"/>
+     </xs:complexType>
+     <xs:complexType name="teachersType">
+          <xs:sequence>
+               <xs:element name="teacher" maxOccurs="unbounded" type="teacherType"/>
+          </xs:sequence>
+     </xs:complexType>
+
+     <!--
+          ##########
+          ## BODY
+          ###########
+     -->
+
+	<xs:element name="students" type="studentsType"/>
+     <xs:element name="subjects" type="subjectsType"/>
+     <xs:element name="teachers" type="teachersType"/>
+</xs:schema>

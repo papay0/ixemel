@@ -3,22 +3,22 @@
 	<subject id="0">
 		<title>Software Engineering I</title>
 		<code>SE1</code>
-		<cursus>
+		<cursuss>
 			<cursus>Informatique</cursus>
-		</cursus>
+		</cursuss>
 	</subject>
 	<subject id="1">
 		<title>Software Engineering II</title>
 		<code>SE2</code>
-		<cursus>
+		<cursuss>
 			<cursus>Informatique</cursus>
-		</cursus>
+		</cursuss>
 	</subject>
 	<subject id="2">
 		<title>Software Engineering III</title>
 		<code>SE3</code>
-		<cursus>
+		<cursuss>
 			<cursus>Informatique</cursus>
-		</cursus>
+		</cursuss>
 	</subject>
 </subjects>

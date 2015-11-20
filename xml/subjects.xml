@@ -3,6 +3,9 @@
 	<subject id="0">
 		<title>Software Engineering I</title>
 		<code>SE1</code>
+		<cursus>
+			<cursus>Informatique</cursus>
+		</cursus>
 	</subject>
 	<subject id="1">
 		<title>Software Engineering II</title>

@@ -9,6 +9,10 @@
 			<subject id="0"/>
 			<subject id="1"/>
 		</subjects>
+		<groups>
+			<group>IR_A</group>
+			<group>IC_B</group>
+		</groups>
 	</teacher>
 	<teacher id="1">
 		<name>Papayo</name>
@@ -18,5 +22,8 @@
 		<subjects>
 			<subject id="2"/>
 		</subjects>
+		<groups>
+			<group>IR_B</group>
+		</groups>
 	</teacher>
 </teachers>

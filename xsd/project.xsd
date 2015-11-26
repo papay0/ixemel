@@ -138,7 +138,7 @@
 
      <!--
           ###########
-          ## BODY
+          ## PROJECT
           ###########
      -->
 
@@ -149,6 +149,12 @@
                <xs:element name="teachers" type="teachersType"/>
           </xs:sequence>
      </xs:complexType>
+
+     <!--
+          ###########
+          ## BODY
+          ###########
+     -->
 
      <xs:element name="project" type="projectType">
           <xs:key name="subjectKey">

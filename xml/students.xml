@@ -28,8 +28,8 @@
 		<group>IR_A</group>
 		<marks>
 			<studyYear year="3">
-				<mark idSubject="5">01</mark>
-				<mark idSubject="6">02</mark>
+				<mark idSubject="5">00</mark>
+				<mark idSubject="6">00</mark>
 				<mark idSubject="7">03</mark>
 			</studyYear>
 			<studyYear year="4">

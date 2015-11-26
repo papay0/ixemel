@@ -152,7 +152,7 @@
 		<title>Software Engineering I</title>
 		<code>SE1</code>
 		<cursuss>
-			<cursus>Informatiques</cursus>
+			<cursus>Informatique</cursus>
 		</cursuss>
 	</subject>
 	<subject id="1">
@@ -255,6 +255,7 @@
 		<birthdate>12/04/1983</birthdate>
 		<grade>Doctor</grade>
 		<subjects>
+			<subject id="0"/>
 			<subject id="2"/>
 		</subjects>
 		<groups>
@@ -282,6 +283,7 @@
 		<subjects>
 			<subject id="4"/>
 			<subject id="5"/>
+			<subject id="6"/>
 		</subjects>
 		<groups>
 			<group>GMM_A</group>

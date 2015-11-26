@@ -38,9 +38,21 @@
                <xs:enumeration value="Mathematiques" />
           </xs:restriction>
      </xs:simpleType>
+     <xs:simpleType name="groupType">
+          <xs:restriction base="xs:string">
+               <xs:enumeration value="IR_A" />
+               <xs:enumeration value="IR_B" />
+               <xs:enumeration value="IC_A" />
+               <xs:enumeration value="IC_B" />
+               <xs:enumeration value="ICBE_A" />
+               <xs:enumeration value="ICBE_B" />
+               <xs:enumeration value="GMM_A" />
+               <xs:enumeration value="GMM_B" />
+          </xs:restriction>
+     </xs:simpleType>
      <xs:complexType name="groupsType">
           <xs:sequence>
-               <xs:element name="group" minOccurs="0" maxOccurs="unbounded" type="xs:string"/>
+               <xs:element name="group" minOccurs="0" maxOccurs="unbounded" type="groupType"/>
           </xs:sequence>
      </xs:complexType>
 

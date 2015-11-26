@@ -25,11 +25,19 @@
           </xs:sequence>
           <xs:attribute name="year" type="idType" use="required"/>
      </xs:complexType>
-     <xs:complexType name="cursusType">
+     <xs:complexType name="cursussType">
           <xs:sequence>
-               <xs:element name="cursus" minOccurs="0" maxOccurs="unbounded" type="xs:string"/>
+               <xs:element name="cursus" minOccurs="0" maxOccurs="unbounded" type="cursusType"/>
           </xs:sequence>
      </xs:complexType>
+     <xs:simpleType name="cursusType">
+          <xs:restriction base="xs:string">
+               <xs:enumeration value="Informatique" />
+               <xs:enumeration value="Civil" />
+               <xs:enumeration value="Chimie" />
+               <xs:enumeration value="Mathematiques" />
+          </xs:restriction>
+     </xs:simpleType>
      <xs:complexType name="groupsType">
           <xs:sequence>
                <xs:element name="group" minOccurs="0" maxOccurs="unbounded" type="xs:string"/>
@@ -46,7 +54,7 @@
           <xs:sequence>
                <xs:element name="title" type="xs:string"/>
                <xs:element name="code" type="xs:string"/>
-               <xs:element name="cursuss" type="cursusType"/>
+               <xs:element name="cursuss" type="cursussType"/>
           </xs:sequence>
           <xs:attribute name="id" type="idType" use="required" />
      </xs:complexType>

@@ -4,7 +4,3 @@
 	<xi:include href="subjects.xml" />
 	<xi:include href="teachers.xml" />
 </project>
-<!--
-	TO BUILD
-	xmllint --xinclude xml/build_project.xml > xml/project.xml ; xmllint --schema xsd/project.xsd xml/project.xml
--->

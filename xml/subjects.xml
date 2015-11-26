@@ -21,4 +21,67 @@
 			<cursus>Informatique</cursus>
 		</cursuss>
 	</subject>
+	<subject id="3">
+		<title>Matlab I</title>
+		<code>M1</code>
+		<cursuss>
+			<cursus>Mathematiques</cursus>
+		</cursuss>
+	</subject>
+	<subject id="4">
+		<title>Matlab II</title>
+		<code>M2</code>
+		<cursuss>
+			<cursus>Mathematiques</cursus>
+		</cursuss>
+	</subject>
+	<subject id="5">
+		<title>Matlab III</title>
+		<code>M3</code>
+		<cursuss>
+			<cursus>Mathematiques</cursus>
+		</cursuss>
+	</subject>
+	<subject id="6">
+		<title>Beton I</title>
+		<code>B1</code>
+		<cursuss>
+			<cursus>Civil</cursus>
+		</cursuss>
+	</subject>
+	<subject id="7">
+		<title>Beton II</title>
+		<code>B2</code>
+		<cursuss>
+			<cursus>Civil</cursus>
+		</cursuss>
+	</subject>
+	<subject id="8">
+		<title>Beton III</title>
+		<code>B3</code>
+		<cursuss>
+			<cursus>Civil</cursus>
+		</cursuss>
+	</subject>
+	<subject id="9">
+		<title>Atome I</title>
+		<code>A1</code>
+		<cursuss>
+			<cursus>Chimie</cursus>
+		</cursuss>
+	</subject>
+	<subject id="10">
+		<title>Atome II</title>
+		<code>A2</code>
+		<cursuss>
+			<cursus>Chimie</cursus>
+		</cursuss>
+	</subject>
+	<subject id="11">
+		<title>Atome III</title>
+		<code>A3</code>
+		<cursuss>
+			<cursus>Chimie</cursus>
+		</cursuss>
+	</subject>
 </subjects>

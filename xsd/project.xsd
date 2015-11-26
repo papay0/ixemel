@@ -1,6 +1,5 @@
 <?xml version="1.0"?>
 <xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
-
      <!--
           ###########
           ## OTHERS
@@ -123,7 +122,26 @@
           ###########
      -->
 
-	<xs:element name="students" type="studentsType"/>
-     <xs:element name="subjects" type="subjectsType"/>
-     <xs:element name="teachers" type="teachersType"/>
+     <xs:complexType name="projectType">
+          <xs:sequence>
+               <xs:element name="students" type="studentsType"/>
+               <xs:element name="subjects" type="subjectsType"/>
+               <xs:element name="teachers" type="teachersType"/>
+          </xs:sequence>
+     </xs:complexType>
+
+     <xs:element name="project" type="projectType">
+          <xs:key name="subjectKey">
+               <xs:selector xpath="subjects/subject"/>
+               <xs:field xpath="@id" />
+          </xs:key>
+          <xs:keyref name="teacherSubjectRef" refer="subjectKey">
+               <xs:selector xpath="teachers/teacher/subjects/subject" />
+               <xs:field xpath="@id" />
+          </xs:keyref>
+          <xs:keyref name="studentSubjectRef" refer="subjectKey">
+               <xs:selector xpath="students/student/marks/studyYear/mark" />
+               <xs:field xpath="@idSubject" />
+          </xs:keyref>
+     </xs:element>
 </xs:schema>

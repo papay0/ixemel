@@ -9,10 +9,11 @@ let $students := //students/student
                     <cursus name = "{$cursu}">
                         <students>{
                             for $student in $students
-                                return
-                                    $student
+                            where $student/cursus = $cursu
+                            return $student
                         }
                         </students>
                     </cursus>
         }
         </cursuss>
+            

@@ -3,7 +3,7 @@
 		<firstName>Arthur</firstName>
 		<lastName>Papayo</lastName>
 		<birthDate>03/11/1994</birthDate>
-		<year>4A</year>
+		<year>4</year>
 		<cursus>Informatique</cursus>
 		<group>IR_A</group>
 		<marks>
@@ -23,7 +23,7 @@
 		<firstName>Gautier</firstName>
 		<lastName>Delorme</lastName>
 		<birthDate>10/10/1994</birthDate>
-		<year>4A</year>
+		<year>4</year>
 		<cursus>Informatique</cursus>
 		<group>IR_A</group>
 		<marks>
@@ -43,7 +43,7 @@
 		<firstName>Pierre</firstName>
 		<lastName>Noel</lastName>
 		<birthDate>01/02/1994</birthDate>
-		<year>4A</year>
+		<year>4</year>
 		<cursus>Informatique</cursus>
 		<group>IR_B</group>
 		<marks>
@@ -63,7 +63,7 @@
 		<firstName>Henri</firstName>
 		<lastName>Cazottes</lastName>
 		<birthDate>04/12/1994</birthDate>
-		<year>4A</year>
+		<year>4</year>
 		<cursus>Informatique</cursus>
 		<group>IR_B</group>
 		<marks>
@@ -83,7 +83,7 @@
 		<firstName>Ralf</firstName>
 		<lastName>Aigal</lastName>
 		<birthDate>07/28/1995</birthDate>
-		<year>4A</year>
+		<year>4</year>
 		<cursus>Mathematiques</cursus>
 		<group>GMM_A</group>
 		<marks>
@@ -103,7 +103,7 @@
 		<firstName>Vincent</firstName>
 		<lastName>Le Gal</lastName>
 		<birthDate>12/25/1994</birthDate>
-		<year>4A</year>
+		<year>4</year>
 		<cursus>Civil</cursus>
 		<group>IC_A</group>
 		<marks>
@@ -123,7 +123,7 @@
 		<firstName>Marine</firstName>
 		<lastName>Dubois</lastName>
 		<birthDate>07/19/1994</birthDate>
-		<year>4A</year>
+		<year>4</year>
 		<cursus>Chimie</cursus>
 		<group>ICBE_A</group>
 		<marks>

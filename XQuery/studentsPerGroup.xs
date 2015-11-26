@@ -9,8 +9,8 @@ let $students := //students/student
                     <group name="{$group}">
                     <students>{
                         for $student in $students
-                            return
-                                $student
+                        where $student/group = $group
+                        return $student
                         }
                     </students>
                     </group>

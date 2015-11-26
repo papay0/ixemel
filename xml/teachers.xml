@@ -11,7 +11,7 @@
 		</subjects>
 		<groups>
 			<group>IR_A</group>
-			<group>IR_B</group>
+			<group>IC_B</group>
 			<group>IC_B</group>
 		</groups>
 	</teacher>
@@ -24,8 +24,8 @@
 			<subject id="2"/>
 		</subjects>
 		<groups>
-			<group>IR_A</group>
 			<group>IR_B</group>
+			<group>IR_A</group>
 		</groups>
 	</teacher>
 	<teacher id="2">

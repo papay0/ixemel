@@ -2,7 +2,7 @@
 <xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
 
      <!--
-          ##########
+          ###########
           ## OTHERS
           ###########
      -->
@@ -17,8 +17,14 @@
      </xs:complexType>
      <xs:complexType name="marksType">
           <xs:sequence>
-               <xs:element name="mark" minOccurs="0" maxOccurs="unbounded" type="markType"/>
+               <xs:element name="studyYear" minOccurs="0" maxOccurs="unbounded" type="studyYearType"/>
           </xs:sequence>
+     </xs:complexType>
+     <xs:complexType name="studyYearType">
+          <xs:sequence>
+               <xs:element name="mark" minOccurs="0" maxOccurs="unbounded" type="markType"/> 
+          </xs:sequence>
+          <xs:attribute name="year" type="idType" use="required"/>
      </xs:complexType>
      <xs:complexType name="cursusType">
           <xs:sequence>
@@ -32,7 +38,7 @@
      </xs:complexType>
 
      <!--
-          ##########
+          ###########
           ## SUBJECTS
           ###########
      -->
@@ -60,7 +66,7 @@
      </xs:complexType>
 
      <!--
-          ##########
+          ###########
           ## STUDENTS
           ###########
      -->
@@ -73,7 +79,6 @@
                <xs:element name="year" type="xs:string"/>
                <xs:element name="cursus" type="xs:string"/>
                <xs:element name="group" type="xs:string"/>
-               <xs:element name="subjects" type="subjectsLinkType"/>
                <xs:element name="marks" type="marksType"/>
           </xs:sequence>
           <xs:attribute name="id" type="idType" use="required"/>
@@ -85,7 +90,7 @@
      </xs:complexType>
 
      <!--
-          ##########
+          ###########
           ## TEACHERS
           ###########
      -->
@@ -113,7 +118,7 @@
      </xs:complexType>
 
      <!--
-          ##########
+          ###########
           ## BODY
           ###########
      -->

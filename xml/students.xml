@@ -53,7 +53,7 @@
 				<mark idSubject="7">03</mark>
 			</studyYear>
 			<studyYear year="4">
-				<mark idSubject="0">13</mark>
+				<mark idSubject="0">00</mark>
 				<mark idSubject="2">12</mark>
 				<mark idSubject="1">12</mark>
 			</studyYear>
@@ -127,6 +127,11 @@
 		<cursus>Chimie</cursus>
 		<group>ICBE_A</group>
 		<marks>
+			<studyYear year="2">
+				<mark idSubject="5">00</mark>
+				<mark idSubject="6">00</mark>
+				<mark idSubject="7">00</mark>
+			</studyYear>
 			<studyYear year="3">
 				<mark idSubject="5">01</mark>
 				<mark idSubject="6">02</mark>

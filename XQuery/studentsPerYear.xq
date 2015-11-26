@@ -1,7 +1,7 @@
 xquery version "3.0";
 
-let $years := distinct-values(//students/student/year)
-let $students := //students/student
+let $years := distinct-values(/students/student/year)
+let $students := /students/student
     return
         <years>{
             for $year in $years

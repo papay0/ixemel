@@ -1,6 +1,6 @@
 xquery version "3.0";
 
-let $students := //students/student
+let $students := /students/student
 let $currentYear := 4
     return
         <students>{

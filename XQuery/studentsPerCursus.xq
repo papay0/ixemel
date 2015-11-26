@@ -1,7 +1,7 @@
 xquery version "3.0";
 
-let $cursus := distinct-values(//students/student/cursus)
-let $students := //students/student
+let $cursus := distinct-values(/students/student/cursus)
+let $students := /students/student
     return
         <cursuss>{
             for $cursu in $cursus

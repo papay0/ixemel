@@ -1,12 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
-
-<!-- 
-Mathematiques : 3;5
-Informatique : 0;2
-Civil : 6;8
-Chimie : 9;11 
--->
-
 <students>
 	<student id="1">
 		<firstName>Arthur</firstName>
@@ -135,4 +127,3 @@ Chimie : 9;11
 		</marks>
 	</student>
 </students>
-

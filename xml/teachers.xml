@@ -20,6 +20,7 @@
 		<birthdate>12/04/1983</birthdate>
 		<grade>Doctor</grade>
 		<subjects>
+			<subject id="0"/>
 			<subject id="2"/>
 		</subjects>
 		<groups>
@@ -47,6 +48,7 @@
 		<subjects>
 			<subject id="4"/>
 			<subject id="5"/>
+			<subject id="6"/>
 		</subjects>
 		<groups>
 			<group>GMM_A</group>

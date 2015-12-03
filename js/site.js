@@ -5,7 +5,18 @@
  $(function() {
  	$('#studentsByGroup').click(function() {
  		$.get('html/studentsPerGroup.html', function(data) {
- 			// $('#main.container').html(data);
+ 			$('.content').html(data);
+ 		});    
+ 	});  
+
+ 	$('#studentsByYear').click(function() {
+ 		$.get('html/studentsPerYear.html', function(data) {
+ 			$('.content').html(data);
+ 		});    
+ 	}); 
+
+ 	$('#studentsByCursus').click(function() {
+ 		$.get('html/studentsPerCursus.html', function(data) {
  			$('.content').html(data);
  		});    
  	});  

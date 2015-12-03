@@ -7,5 +7,6 @@
     <link rel="stylesheet" href="css/bootstrap.min.css">
 </head>
 <body>
+	<?php include("html/studentsPerGroup.html"); ?>
 </body>
 </html>

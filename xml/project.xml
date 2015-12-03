@@ -153,6 +153,7 @@
 		<code>SE1</code>
 		<cursuss>
 			<cursus>Informatique</cursus>
+			<cursus>Civil</cursus>
 		</cursuss>
 	</subject>
 	<subject id="1">
@@ -160,6 +161,7 @@
 		<code>SE2</code>
 		<cursuss>
 			<cursus>Informatique</cursus>
+			<cursus>Civil</cursus>
 		</cursuss>
 	</subject>
 	<subject id="2">
@@ -195,6 +197,7 @@
 		<code>B1</code>
 		<cursuss>
 			<cursus>Civil</cursus>
+			<cursus>Mathematiques</cursus>
 		</cursuss>
 	</subject>
 	<subject id="7">
@@ -216,6 +219,7 @@
 		<code>A1</code>
 		<cursuss>
 			<cursus>Chimie</cursus>
+			<cursus>Civil</cursus>
 		</cursuss>
 	</subject>
 	<subject id="10">
@@ -223,6 +227,7 @@
 		<code>A2</code>
 		<cursuss>
 			<cursus>Chimie</cursus>
+			<cursus>Civil</cursus>
 		</cursuss>
 	</subject>
 	<subject id="11">

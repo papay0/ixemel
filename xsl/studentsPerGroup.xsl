@@ -1,35 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
 	<xsl:template match="/groups">
-		<table class="table">
-			<caption>Optional table caption.</caption>
+		<xsl:for-each select="group">
+			<h3>Groupe <xsl:value-of select="@name" /></h3>
+			<table class="table">
 			<thead>
 				<tr>
-					<xsl:for-each select="group">
-						<th><xsl:value-of select="@name" /></th>
-					</xsl:for-each>
+					<th>Nom</th>
+					<th>Prénom</th>
 				</tr>
 			</thead>
-			<!-- <tbody>
-				<tr>
-					<th scope="row">1</th>
-					<td>Mark</td>
-					<td>Otto</td>
-					<td>@mdo</td>
-				</tr>
-				<tr>
-					<th scope="row">2</th>
-					<td>Jacob</td>
-					<td>Thornton</td>
-					<td>@fat</td>
-				</tr>
-				<tr>
-					<th scope="row">3</th>
-					<td>Larry</td>
-					<td>the Bird</td>
-					<td>@twitter</td>
-				</tr>
-			</tbody> -->
+			<tbody>
+				<xsl:for-each select="students/student">
+					<tr>
+						<th><xsl:value-of select="lastName" /></th>
+						<td><xsl:value-of select="firstName" /></td>
+					</tr>
+				</xsl:for-each>
+			</tbody>
 		</table>
+		</xsl:for-each>
 	</xsl:template>
 </xsl:stylesheet>

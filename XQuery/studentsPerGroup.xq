@@ -1,10 +1,9 @@
 xquery version "3.0";
 
-let $groups := distinct-values(/students/student/group)
-let $students := /students/student
+let $source := doc("../xml/project.xml")
+let $groups := distinct-values($source/project/students/student/group)
+let $students := $source/project/students/student
     return
-    <?xml version="1.0" encoding="UTF-8"?>
-    <?xml-stylesheet type="text/xsl" href="xsl/studentsPerGroup.xsl"?>
         <groups>{
             for $group in $groups
                 return 

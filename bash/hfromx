@@ -1,7 +1,10 @@
 #!/bin/bash
 if test $# -ne 1
 then
-    echo "Merci de renseigner un nom."
+	for f in xml/components/*.xml
+	do 
+		xsltproc xsl/$(basename $f .xml).xsl $f | tail -n 1 > html/$(basename $f .xml).html
+	done
 else
 	xsltproc xsl/$1.xsl xml/components/$1.xml | tail -n 1 > html/$1.html
 fi

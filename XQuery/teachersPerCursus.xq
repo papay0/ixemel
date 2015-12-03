@@ -1,8 +1,9 @@
 xquery version "3.0";
 
-let $cursus := distinct-values(/subjects/subject/cursuss/cursus)
-let $subjects := /subjects/subject
-let $teachers := /teachers/teacher
+let $source := doc("../xml/project.xml")
+let $cursus := distinct-values($source/project/subjects/subject/cursuss/cursus)
+let $subjects := $source/project/subjects/subject
+let $teachers := $source/project/teachers/teacher
     return
         <cursuss>{
             for $cursu in $cursus

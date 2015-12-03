@@ -1,7 +1,8 @@
 xquery version "3.0";
 
-let $teachers := /teachers/teacher
-let $subjects := /subjects/subject
+let $source := doc("../xml/project.xml")
+let $teachers := $source/project/teachers/teacher
+let $subjects := $source/project/subjects/subject
     return
         <teachers>{
             for $teacher in $teachers

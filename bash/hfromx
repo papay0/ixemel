@@ -3,5 +3,5 @@ if test $# -ne 1
 then
     echo "Merci de renseigner un nom."
 else
-	xsltproc xsl/$1.xsl xml/$1.xml | tail -n 1 > html/$1.html
+	xsltproc xsl/$1.xsl xml/components/$1.xml | tail -n 1 > html/$1.html
 fi

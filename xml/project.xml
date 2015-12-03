@@ -1,340 +1,340 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project xmlns:xi="http://www.w3.org/2001/XInclude">
 	<students>
-		<student id="1">
-			<firstName>Arthur</firstName>
-			<lastName>Papayo</lastName>
-			<birthDate>03/11/1994</birthDate>
-			<year>4</year>
-			<cursus>Informatique</cursus>
-			<group>IR_A</group>
-			<marks>
-				<studyYear year="4">
-					<mark idSubject="0">19</mark>
-					<mark idSubject="2">20</mark>
-					<mark idSubject="1">19</mark>
-				</studyYear>
-				<studyYear year="3">
-					<mark idSubject="5">19</mark>
-					<mark idSubject="6">20</mark>
-					<mark idSubject="7">19</mark>
-				</studyYear>
-			</marks>
-		</student>
-		<student id="2">
-			<firstName>Gautier</firstName>
-			<lastName>Delorme</lastName>
-			<birthDate>10/10/1994</birthDate>
-			<year>4</year>
-			<cursus>Informatique</cursus>
-			<group>IR_A</group>
-			<marks>
-				<studyYear year="3">
-					<mark idSubject="5">00</mark>
-					<mark idSubject="6">00</mark>
-					<mark idSubject="7">03</mark>
-				</studyYear>
-				<studyYear year="4">
-					<mark idSubject="0">03</mark>
-					<mark idSubject="2">04</mark>
-					<mark idSubject="1">01</mark>
-				</studyYear>
-			</marks>
-		</student>
-		<student id="3">
-			<firstName>Pierre</firstName>
-			<lastName>Noel</lastName>
-			<birthDate>01/02/1994</birthDate>
-			<year>4</year>
-			<cursus>Informatique</cursus>
-			<group>IR_B</group>
-			<marks>
-				<studyYear year="3">
-					<mark idSubject="5">01</mark>
-					<mark idSubject="6">02</mark>
-					<mark idSubject="7">03</mark>
-				</studyYear>
-				<studyYear year="4">
-					<mark idSubject="0">00</mark>
-					<mark idSubject="2">12</mark>
-					<mark idSubject="1">12</mark>
-				</studyYear>
-			</marks>
-		</student>
-		<student id="4">
-			<firstName>Henri</firstName>
-			<lastName>Cazottes</lastName>
-			<birthDate>04/12/1994</birthDate>
-			<year>4</year>
-			<cursus>Informatique</cursus>
-			<group>IR_B</group>
-			<marks>
-				<studyYear year="3">
-					<mark idSubject="5">01</mark>
-					<mark idSubject="6">02</mark>
-					<mark idSubject="7">03</mark>
-				</studyYear>
-				<studyYear year="4">
-					<mark idSubject="0">01</mark>
-					<mark idSubject="2">19</mark>
-					<mark idSubject="1">02</mark>
-				</studyYear>
-			</marks>
-		</student>
-		<student id="5">
-			<firstName>Ralf</firstName>
-			<lastName>Aigal</lastName>
-			<birthDate>07/28/1995</birthDate>
-			<year>4</year>
-			<cursus>Mathematiques</cursus>
-			<group>GMM_A</group>
-			<marks>
-				<studyYear year="3">
-					<mark idSubject="5">01</mark>
-					<mark idSubject="6">02</mark>
-					<mark idSubject="7">03</mark>
-				</studyYear>
-				<studyYear year="4">
-					<mark idSubject="3">20</mark>
-					<mark idSubject="4">20</mark>
-					<mark idSubject="5">19</mark>
-				</studyYear>
-			</marks>
-		</student>
-		<student id="6">
-			<firstName>Vincent</firstName>
-			<lastName>Le Gal</lastName>
-			<birthDate>12/25/1994</birthDate>
-			<year>4</year>
-			<cursus>Civil</cursus>
-			<group>IC_A</group>
-			<marks>
-				<studyYear year="3">
-					<mark idSubject="5">01</mark>
-					<mark idSubject="6">02</mark>
-					<mark idSubject="7">03</mark>
-				</studyYear>
-				<studyYear year="4">
-					<mark idSubject="6">00</mark>
-					<mark idSubject="7">00</mark>
-					<mark idSubject="8">19</mark>
-				</studyYear>
-			</marks>
-		</student>
-		<student id="7">
-			<firstName>Marine</firstName>
-			<lastName>Dubois</lastName>
-			<birthDate>07/19/1994</birthDate>
-			<year>4</year>
-			<cursus>Chimie</cursus>
-			<group>ICBE_A</group>
-			<marks>
-				<studyYear year="2">
-					<mark idSubject="5">00</mark>
-					<mark idSubject="6">00</mark>
-					<mark idSubject="7">00</mark>
-				</studyYear>
-				<studyYear year="3">
-					<mark idSubject="5">01</mark>
-					<mark idSubject="6">02</mark>
-					<mark idSubject="7">03</mark>
-				</studyYear>
-				<studyYear year="4">
-					<mark idSubject="9">15</mark>
-					<mark idSubject="10">18</mark>
-					<mark idSubject="11">19</mark>
-				</studyYear>
-			</marks>
-		</student>
-	</students>
+	<student id="1">
+		<firstName>Arthur</firstName>
+		<lastName>Papayo</lastName>
+		<birthDate>03/11/1994</birthDate>
+		<year>4</year>
+		<cursus>Informatique</cursus>
+		<group>IR_A</group>
+		<marks>
+			<studyYear year="4">
+				<mark idSubject="0">19</mark>
+				<mark idSubject="2">20</mark>
+				<mark idSubject="1">19</mark>
+			</studyYear>
+			<studyYear year="3">
+				<mark idSubject="5">00</mark>
+				<mark idSubject="6">20</mark>
+				<mark idSubject="7">19</mark>
+			</studyYear>
+		</marks>
+	</student>
+	<student id="2">
+		<firstName>Gautier</firstName>
+		<lastName>Delorme</lastName>
+		<birthDate>10/10/1994</birthDate>
+		<year>4</year>
+		<cursus>Informatique</cursus>
+		<group>IR_A</group>
+		<marks>
+			<studyYear year="3">
+				<mark idSubject="5">00</mark>
+				<mark idSubject="6">00</mark>
+				<mark idSubject="7">03</mark>
+			</studyYear>
+			<studyYear year="4">
+				<mark idSubject="0">03</mark>
+				<mark idSubject="2">04</mark>
+				<mark idSubject="1">01</mark>
+			</studyYear>
+		</marks>
+	</student>
+	<student id="3">
+		<firstName>Pierre</firstName>
+		<lastName>Noel</lastName>
+		<birthDate>01/02/1994</birthDate>
+		<year>4</year>
+		<cursus>Informatique</cursus>
+		<group>IR_B</group>
+		<marks>
+			<studyYear year="3">
+				<mark idSubject="5">01</mark>
+				<mark idSubject="6">02</mark>
+				<mark idSubject="7">03</mark>
+			</studyYear>
+			<studyYear year="4">
+				<mark idSubject="0">00</mark>
+				<mark idSubject="2">00</mark>
+				<mark idSubject="1">12</mark>
+			</studyYear>
+		</marks>
+	</student>
+	<student id="4">
+		<firstName>Henri</firstName>
+		<lastName>Cazottes</lastName>
+		<birthDate>04/12/1994</birthDate>
+		<year>4</year>
+		<cursus>Informatique</cursus>
+		<group>IR_B</group>
+		<marks>
+			<studyYear year="3">
+				<mark idSubject="5">01</mark>
+				<mark idSubject="6">02</mark>
+				<mark idSubject="7">00</mark>
+			</studyYear>
+			<studyYear year="4">
+				<mark idSubject="0">01</mark>
+				<mark idSubject="2">00</mark>
+				<mark idSubject="1">00</mark>
+			</studyYear>
+		</marks>
+	</student>
+	<student id="5">
+		<firstName>Ralf</firstName>
+		<lastName>Aigal</lastName>
+		<birthDate>07/28/1995</birthDate>
+		<year>4</year>
+		<cursus>Mathematiques</cursus>
+		<group>GMM_A</group>
+		<marks>
+			<studyYear year="3">
+				<mark idSubject="5">01</mark>
+				<mark idSubject="6">02</mark>
+				<mark idSubject="7">03</mark>
+			</studyYear>
+			<studyYear year="4">
+				<mark idSubject="3">20</mark>
+				<mark idSubject="4">20</mark>
+				<mark idSubject="5">19</mark>
+			</studyYear>
+		</marks>
+	</student>
+	<student id="6">
+		<firstName>Vincent</firstName>
+		<lastName>Le Gal</lastName>
+		<birthDate>12/25/1994</birthDate>
+		<year>4</year>
+		<cursus>Civil</cursus>
+		<group>IC_A</group>
+		<marks>
+			<studyYear year="3">
+				<mark idSubject="5">01</mark>
+				<mark idSubject="6">02</mark>
+				<mark idSubject="7">03</mark>
+			</studyYear>
+			<studyYear year="4">
+				<mark idSubject="6">00</mark>
+				<mark idSubject="7">00</mark>
+				<mark idSubject="8">19</mark>
+			</studyYear>
+		</marks>
+	</student>
+	<student id="7">
+		<firstName>Marine</firstName>
+		<lastName>Dubois</lastName>
+		<birthDate>07/19/1994</birthDate>
+		<year>4</year>
+		<cursus>Chimie</cursus>
+		<group>ICBE_A</group>
+		<marks>
+			<studyYear year="2">
+				<mark idSubject="5">00</mark>
+				<mark idSubject="6">00</mark>
+				<mark idSubject="7">00</mark>
+			</studyYear>
+			<studyYear year="3">
+				<mark idSubject="5">01</mark>
+				<mark idSubject="6">02</mark>
+				<mark idSubject="7">03</mark>
+			</studyYear>
+			<studyYear year="4">
+				<mark idSubject="9">15</mark>
+				<mark idSubject="10">18</mark>
+				<mark idSubject="11">19</mark>
+			</studyYear>
+		</marks>
+	</student>
+</students>
 	<subjects>
-		<subject id="0">
-			<title>Software Engineering I</title>
-			<code>SE1</code>
-			<cursuss>
-				<cursus>Informatique</cursus>
-				<cursus>Civil</cursus>
-			</cursuss>
-		</subject>
-		<subject id="1">
-			<title>Software Engineering II</title>
-			<code>SE2</code>
-			<cursuss>
-				<cursus>Informatique</cursus>
-				<cursus>Civil</cursus>
-			</cursuss>
-		</subject>
-		<subject id="2">
-			<title>Software Engineering III</title>
-			<code>SE3</code>
-			<cursuss>
-				<cursus>Informatique</cursus>
-			</cursuss>
-		</subject>
-		<subject id="3">
-			<title>Matlab I</title>
-			<code>M1</code>
-			<cursuss>
-				<cursus>Mathematiques</cursus>
-			</cursuss>
-		</subject>
-		<subject id="4">
-			<title>Matlab II</title>
-			<code>M2</code>
-			<cursuss>
-				<cursus>Mathematiques</cursus>
-			</cursuss>
-		</subject>
-		<subject id="5">
-			<title>Matlab III</title>
-			<code>M3</code>
-			<cursuss>
-				<cursus>Mathematiques</cursus>
-			</cursuss>
-		</subject>
-		<subject id="6">
-			<title>Beton I</title>
-			<code>B1</code>
-			<cursuss>
-				<cursus>Civil</cursus>
-				<cursus>Mathematiques</cursus>
-			</cursuss>
-		</subject>
-		<subject id="7">
-			<title>Beton II</title>
-			<code>B2</code>
-			<cursuss>
-				<cursus>Civil</cursus>
-			</cursuss>
-		</subject>
-		<subject id="8">
-			<title>Beton III</title>
-			<code>B3</code>
-			<cursuss>
-				<cursus>Civil</cursus>
-			</cursuss>
-		</subject>
-		<subject id="9">
-			<title>Atome I</title>
-			<code>A1</code>
-			<cursuss>
-				<cursus>Chimie</cursus>
-				<cursus>Civil</cursus>
-			</cursuss>
-		</subject>
-		<subject id="10">
-			<title>Atome II</title>
-			<code>A2</code>
-			<cursuss>
-				<cursus>Chimie</cursus>
-				<cursus>Civil</cursus>
-			</cursuss>
-		</subject>
-		<subject id="11">
-			<title>Atome III</title>
-			<code>A3</code>
-			<cursuss>
-				<cursus>Chimie</cursus>
-			</cursuss>
-		</subject>
-	</subjects>
+	<subject id="0">
+		<title>Software Engineering I</title>
+		<code>SE1</code>
+		<cursuss>
+			<cursus>Informatique</cursus>
+			<cursus>Civil</cursus>
+		</cursuss>
+	</subject>
+	<subject id="1">
+		<title>Software Engineering II</title>
+		<code>SE2</code>
+		<cursuss>
+			<cursus>Informatique</cursus>
+			<cursus>Civil</cursus>
+		</cursuss>
+	</subject>
+	<subject id="2">
+		<title>Software Engineering III</title>
+		<code>SE3</code>
+		<cursuss>
+			<cursus>Informatique</cursus>
+		</cursuss>
+	</subject>
+	<subject id="3">
+		<title>Matlab I</title>
+		<code>M1</code>
+		<cursuss>
+			<cursus>Mathematiques</cursus>
+		</cursuss>
+	</subject>
+	<subject id="4">
+		<title>Matlab II</title>
+		<code>M2</code>
+		<cursuss>
+			<cursus>Mathematiques</cursus>
+		</cursuss>
+	</subject>
+	<subject id="5">
+		<title>Matlab III</title>
+		<code>M3</code>
+		<cursuss>
+			<cursus>Mathematiques</cursus>
+		</cursuss>
+	</subject>
+	<subject id="6">
+		<title>Beton I</title>
+		<code>B1</code>
+		<cursuss>
+			<cursus>Civil</cursus>
+			<cursus>Mathematiques</cursus>
+		</cursuss>
+	</subject>
+	<subject id="7">
+		<title>Beton II</title>
+		<code>B2</code>
+		<cursuss>
+			<cursus>Civil</cursus>
+		</cursuss>
+	</subject>
+	<subject id="8">
+		<title>Beton III</title>
+		<code>B3</code>
+		<cursuss>
+			<cursus>Civil</cursus>
+		</cursuss>
+	</subject>
+	<subject id="9">
+		<title>Atome I</title>
+		<code>A1</code>
+		<cursuss>
+			<cursus>Chimie</cursus>
+			<cursus>Civil</cursus>
+		</cursuss>
+	</subject>
+	<subject id="10">
+		<title>Atome II</title>
+		<code>A2</code>
+		<cursuss>
+			<cursus>Chimie</cursus>
+			<cursus>Civil</cursus>
+		</cursuss>
+	</subject>
+	<subject id="11">
+		<title>Atome III</title>
+		<code>A3</code>
+		<cursuss>
+			<cursus>Chimie</cursus>
+		</cursuss>
+	</subject>
+</subjects>
 	<teachers>
-		<teacher id="0">
-			<name>Delorme</name>
-			<surname>Gautier</surname>
-			<birthdate>04/03/1994</birthdate>
-			<grade>Professor</grade>
-			<subjects>
-				<subject id="0"/>
-				<subject id="1"/>
-			</subjects>
-			<groups>
-				<group>IR_A</group>
-				<group>IC_B</group>
-				<group>IC_B</group>
-			</groups>
-		</teacher>
-		<teacher id="1">
-			<name>Papayo</name>
-			<surname>Arthur</surname>
-			<birthdate>12/04/1983</birthdate>
-			<grade>Doctor</grade>
-			<subjects>
-				<subject id="0"/>
-				<subject id="2"/>
-			</subjects>
-			<groups>
-				<group>IR_B</group>
-				<group>IR_A</group>
-			</groups>
-		</teacher>
-		<teacher id="2">
-			<name>Micheau</name>
-			<surname>Bastien</surname>
-			<birthdate>06/24/1990</birthdate>
-			<grade>Doctor</grade>
-			<subjects>
-				<subject id="3"/>
-			</subjects>
-			<groups>
-				<group>GMM_A</group>
-			</groups>
-		</teacher>
-		<teacher id="3">
-			<name>Mescudi</name>
-			<surname>Solo</surname>
-			<birthdate>01/01/2000</birthdate>
-			<grade>Doctor</grade>
-			<subjects>
-				<subject id="4"/>
-				<subject id="5"/>
-				<subject id="6"/>
-			</subjects>
-			<groups>
-				<group>GMM_A</group>
-			</groups>
-		</teacher>
-		<teacher id="4">
-			<name>LeGal</name>
-			<surname>Vincent</surname>
-			<birthdate>09/22/1991</birthdate>
-			<grade>Doctor</grade>
-			<subjects>
-				<subject id="6"/>
-				<subject id="7"/>
-				<subject id="8"/>
-			</subjects>
-			<groups>
-				<group>IC_A</group>
-				<group>IC_B</group>
-			</groups>
-		</teacher>
-		<teacher id="5">
-			<name>Nieto</name>
-			<surname>Laure</surname>
-			<birthdate>01/13/1992</birthdate>
-			<grade>Professor</grade>
-			<subjects>
-				<subject id="9"/>
-				<subject id="10"/>
-			</subjects>
-			<groups>
-				<group>IC_A</group>
-				<group>IC_B</group>
-				<group>ICBE_A</group>
-			</groups>
-		</teacher>
-		<teacher id="6">
-			<name>Bricard</name>
-			<surname>Laure</surname>
-			<birthdate>12/31/1800</birthdate>
-			<grade>Professor</grade>
-			<subjects>
-				<subject id="11"/>
-			</subjects>
-			<groups>
-				<group>ICBE_A</group>
-			</groups>
-		</teacher>
-	</teachers>
+	<teacher id="0">
+		<name>Delorme</name>
+		<surname>Gautier</surname>
+		<birthdate>04/03/1994</birthdate>
+		<grade>Professor</grade>
+		<subjects>
+			<subject id="0"/>
+			<subject id="1"/>
+		</subjects>
+		<groups>
+			<group>IR_A</group>
+			<group>IC_B</group>
+			<group>IC_B</group>
+		</groups>
+	</teacher>
+	<teacher id="1">
+		<name>Papayo</name>
+		<surname>Arthur</surname>
+		<birthdate>12/04/1983</birthdate>
+		<grade>Doctor</grade>
+		<subjects>
+			<subject id="0"/>
+			<subject id="2"/>
+		</subjects>
+		<groups>
+			<group>IR_B</group>
+			<group>IR_A</group>
+		</groups>
+	</teacher>
+	<teacher id="2">
+		<name>Micheau</name>
+		<surname>Bastien</surname>
+		<birthdate>06/24/1990</birthdate>
+		<grade>Doctor</grade>
+		<subjects>
+			<subject id="3"/>
+		</subjects>
+		<groups>
+			<group>GMM_A</group>
+		</groups>
+	</teacher>
+	<teacher id="3">
+		<name>Mescudi</name>
+		<surname>Solo</surname>
+		<birthdate>01/01/2000</birthdate>
+		<grade>Doctor</grade>
+		<subjects>
+			<subject id="4"/>
+			<subject id="5"/>
+			<subject id="6"/>
+		</subjects>
+		<groups>
+			<group>GMM_A</group>
+		</groups>
+	</teacher>
+	<teacher id="4">
+		<name>LeGal</name>
+		<surname>Vincent</surname>
+		<birthdate>09/22/1991</birthdate>
+		<grade>Doctor</grade>
+		<subjects>
+			<subject id="6"/>
+			<subject id="7"/>
+			<subject id="8"/>
+		</subjects>
+		<groups>
+			<group>IC_A</group>
+			<group>IC_B</group>
+		</groups>
+	</teacher>
+	<teacher id="5">
+		<name>Nieto</name>
+		<surname>Laure</surname>
+		<birthdate>01/13/1992</birthdate>
+		<grade>Professor</grade>
+		<subjects>
+			<subject id="9"/>
+			<subject id="10"/>
+		</subjects>
+		<groups>
+			<group>IC_A</group>
+			<group>IC_B</group>
+			<group>ICBE_A</group>
+		</groups>
+	</teacher>
+	<teacher id="6">
+		<name>Bricard</name>
+		<surname>Laure</surname>
+		<birthdate>12/31/1800</birthdate>
+		<grade>Professor</grade>
+		<subjects>
+			<subject id="11"/>
+		</subjects>
+		<groups>
+			<group>ICBE_A</group>
+		</groups>
+	</teacher>
+</teachers>
 </project>

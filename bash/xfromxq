@@ -1,7 +1,10 @@
 #!/bin/bash
 if test $# -ne 1
 then
-    echo "Merci de renseigner un nom."
+	for f in XQuery/*.xq
+	do 
+		xqilla $f > xml/components/$(basename $f .xq).xml
+	done
 else
 	xqilla XQuery/$1.xq > xml/$1.xml
 fi

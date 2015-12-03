@@ -1,6 +1,7 @@
 xquery version "3.0";
 
-let $students := /students/student
+let $source := doc("../xml/project.xml")
+let $students := $source/project/students/student
 let $currentYear := 4
     return
         <students>{

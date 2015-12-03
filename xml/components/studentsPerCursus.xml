@@ -12,7 +12,7 @@
 				<mark idSubject="1">19</mark>
 			</studyYear>
 			<studyYear year="3">
-				<mark idSubject="5">19</mark>
+				<mark idSubject="5">00</mark>
 				<mark idSubject="6">20</mark>
 				<mark idSubject="7">19</mark>
 			</studyYear>
@@ -51,7 +51,7 @@
 			</studyYear>
 			<studyYear year="4">
 				<mark idSubject="0">00</mark>
-				<mark idSubject="2">12</mark>
+				<mark idSubject="2">00</mark>
 				<mark idSubject="1">12</mark>
 			</studyYear>
 		</marks>
@@ -66,12 +66,12 @@
 			<studyYear year="3">
 				<mark idSubject="5">01</mark>
 				<mark idSubject="6">02</mark>
-				<mark idSubject="7">03</mark>
+				<mark idSubject="7">00</mark>
 			</studyYear>
 			<studyYear year="4">
 				<mark idSubject="0">01</mark>
-				<mark idSubject="2">19</mark>
-				<mark idSubject="1">02</mark>
+				<mark idSubject="2">00</mark>
+				<mark idSubject="1">00</mark>
 			</studyYear>
 		</marks>
 	</student></students></cursus><cursus name="Mathematiques"><students><student id="5" xmlns:xi="http://www.w3.org/2001/XInclude">

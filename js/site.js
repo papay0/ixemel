@@ -3,8 +3,9 @@
  */
 
  $(function() {
- 	$('#studentsByCursus').click(function() {
+ 	$('#studentsByGroup').click(function() {
  		$.get('html/studentsPerGroup.html', function(data) {
+ 			// $('#main.container').html(data);
  			$('.content').html(data);
  		});    
  	});  

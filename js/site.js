@@ -18,7 +18,6 @@
  			var numberOfStudents = 0;
  			var numberOfSubjects = 0;
  			var numberOfTeachers = 0;
- 			var numberOfSubjectsAtLeastOneDebt = 0;
 
  			$(xml).find('student').each( function(){ 
  				numberOfStudents++;
@@ -33,8 +32,25 @@
  			$('#numberOfStudents').text(numberOfStudents);
  			$('#numberOfSubjects').text(numberOfSubjects);
  			$('#numberOfTeachers').text(numberOfTeachers);
- 			$('#numberOfSubjectsAtLeastOneDebt').html(numberOfSubjectsAtLeastOneDebt+'<sup style="font-size: 20px">%</sup>');
  		}
- 	}
- 	); 
+ 	}); 
+
+ 	$.ajax( {
+ 		type: "GET",
+ 		url: "xml/components/studentsDebtsPreviousYear.xml",
+ 		dataType: "xml",
+ 		success: function(xml) { 
+ 			var numberOfStudentsAtLeastOneDebt = 0;
+ 			var pourcentageOfStudentsAtLeastOneDebt = 0;
+ 			var numberOfStudents = 
+ 			$(xml).find('student').each( function(){ 
+ 				numberOfStudentsAtLeastOneDebt++;
+ 			} );
+ 			numberOfStudentsAtLeastOneDebt /= 2;
+ 			pourcentageOfStudentsAtLeastOneDebt = $('#numberOfStudents').text() / numberOfStudentsAtLeastOneDebt;
+ 			$('#numberOfStudentsAtLeastOneDebt').html(pourcentageOfStudentsAtLeastOneDebt+'<sup style="font-size: 20px">%</sup>');
+ 		}
+ 	}); 
+
+
  });

@@ -1,42 +1,47 @@
-<students><student><student id="1" xmlns:xi="http://www.w3.org/2001/XInclude">
-		<firstName>Arthur</firstName>
-		<lastName>Papayo</lastName>
-		<birthDate>03/11/1994</birthDate>
-		<year>4</year>
-		<cursus>Informatique</cursus>
-		<group>IR_A</group>
-		<marks>
-			<studyYear year="4">
-				<mark idSubject="0">19</mark>
-				<mark idSubject="2">20</mark>
-				<mark idSubject="1">19</mark>
-			</studyYear>
-			<studyYear year="3">
-				<mark idSubject="5">00</mark>
-				<mark idSubject="6">20</mark>
-				<mark idSubject="7">19</mark>
-			</studyYear>
-		</marks>
-	</student></student><student><student id="2" xmlns:xi="http://www.w3.org/2001/XInclude">
-		<firstName>Gautier</firstName>
-		<lastName>Delorme</lastName>
-		<birthDate>10/10/1994</birthDate>
-		<year>4</year>
-		<cursus>Informatique</cursus>
-		<group>IR_A</group>
-		<marks>
-			<studyYear year="3">
-				<mark idSubject="5">00</mark>
-				<mark idSubject="6">00</mark>
-				<mark idSubject="7">03</mark>
-			</studyYear>
-			<studyYear year="4">
-				<mark idSubject="0">03</mark>
-				<mark idSubject="2">04</mark>
-				<mark idSubject="1">01</mark>
-			</studyYear>
-		</marks>
-	</student></student><student><student id="4" xmlns:xi="http://www.w3.org/2001/XInclude">
+<students>
+	<student>
+		<student id="1" xmlns:xi="http://www.w3.org/2001/XInclude">
+			<firstName>Arthur</firstName>
+			<lastName>Papayo</lastName>
+			<birthDate>03/11/1994</birthDate>
+			<year>4</year>
+			<cursus>Informatique</cursus>
+			<group>IR_A</group>
+			<marks>
+				<studyYear year="4">
+					<mark idSubject="0">19</mark>
+					<mark idSubject="2">20</mark>
+					<mark idSubject="1">19</mark>
+				</studyYear>
+				<studyYear year="3">
+					<mark idSubject="5">00</mark>
+					<mark idSubject="6">20</mark>
+					<mark idSubject="7">19</mark>
+				</studyYear>
+			</marks>
+		</student>
+	</student>
+	<student>
+		<student id="2" xmlns:xi="http://www.w3.org/2001/XInclude">
+			<firstName>Gautier</firstName>
+			<lastName>Delorme</lastName>
+			<birthDate>10/10/1994</birthDate>
+			<year>4</year>
+			<cursus>Informatique</cursus>
+			<group>IR_A</group>
+			<marks>
+				<studyYear year="3">
+					<mark idSubject="5">00</mark>
+					<mark idSubject="6">00</mark>
+					<mark idSubject="7">03</mark>
+				</studyYear>
+				<studyYear year="4">
+					<mark idSubject="0">03</mark>
+					<mark idSubject="2">04</mark>
+					<mark idSubject="1">01</mark>
+				</studyYear>
+			</marks>
+		</student></student><student><student id="4" xmlns:xi="http://www.w3.org/2001/XInclude">
 		<firstName>Henri</firstName>
 		<lastName>Cazottes</lastName>
 		<birthDate>04/12/1994</birthDate>
@@ -56,27 +61,27 @@
 			</studyYear>
 		</marks>
 	</student></student><student><student id="7" xmlns:xi="http://www.w3.org/2001/XInclude">
-		<firstName>Marine</firstName>
-		<lastName>Dubois</lastName>
-		<birthDate>07/19/1994</birthDate>
-		<year>4</year>
-		<cursus>Chimie</cursus>
-		<group>ICBE_A</group>
-		<marks>
-			<studyYear year="2">
-				<mark idSubject="5">00</mark>
-				<mark idSubject="6">00</mark>
-				<mark idSubject="7">00</mark>
-			</studyYear>
-			<studyYear year="3">
-				<mark idSubject="5">01</mark>
-				<mark idSubject="6">02</mark>
-				<mark idSubject="7">03</mark>
-			</studyYear>
-			<studyYear year="4">
-				<mark idSubject="9">15</mark>
-				<mark idSubject="10">18</mark>
-				<mark idSubject="11">19</mark>
-			</studyYear>
-		</marks>
-	</student></student></students>
+	<firstName>Marine</firstName>
+	<lastName>Dubois</lastName>
+	<birthDate>07/19/1994</birthDate>
+	<year>4</year>
+	<cursus>Chimie</cursus>
+	<group>ICBE_A</group>
+	<marks>
+		<studyYear year="2">
+			<mark idSubject="5">00</mark>
+			<mark idSubject="6">00</mark>
+			<mark idSubject="7">00</mark>
+		</studyYear>
+		<studyYear year="3">
+			<mark idSubject="5">01</mark>
+			<mark idSubject="6">02</mark>
+			<mark idSubject="7">03</mark>
+		</studyYear>
+		<studyYear year="4">
+			<mark idSubject="9">15</mark>
+			<mark idSubject="10">18</mark>
+			<mark idSubject="11">19</mark>
+		</studyYear>
+	</marks>
+</student></student></students>

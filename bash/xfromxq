@@ -6,5 +6,5 @@ then
 		xqilla $f > xml/components/$(basename $f .xq).xml
 	done
 else
-	xqilla XQuery/$1.xq > xml/$1.xml
+	xqilla XQuery/$1.xq > xml/components/$1.xml
 fi

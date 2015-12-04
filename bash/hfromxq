@@ -1,0 +1,9 @@
+#!/bin/bash
+if test $# -ne 1
+then
+	./bash/xfromxq
+	./bash/hfromx
+else
+	./bash/xfromxq $1
+	./bash/hfromx $1
+fi

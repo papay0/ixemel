@@ -3,7 +3,7 @@
 	<xsl:template match="/teachers">
 		<xsl:for-each select="teacher">
 			<div class="container">
-				<h3><xsl:value-of select="grade" /><xsl:text> </xsl:text><xsl:value-of select="name" /></h3>
+				<h3><xsl:value-of select="grade" />&#160;<xsl:value-of select="name" /></h3>
 				<table class="table table-striped">
 					<thead>
 						<tr>

@@ -57,6 +57,12 @@
  		});    
  	});
 
+ 	$('#studentsDebtsPreviousYear').click(function() {
+ 		$.get('html/studentsDebtsPreviousYear.html', function(data) {
+ 			$('.content').html(data);
+ 		});    
+ 	});
+
  	$.ajax( {
  		type: "GET",
  		url: "xml/project.xml",

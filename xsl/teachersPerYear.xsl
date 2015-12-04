@@ -12,7 +12,7 @@
 						</tr>
 					</thead>
 					<tbody>
-						<xsl:for-each select="teachers/teacher">
+						<xsl:for-each select="teachers/teacher[not(@id = preceding-sibling::teacher/@id)]">
 							<tr>
 								<th><xsl:value-of select="name" /></th>
 								<th><xsl:value-of select="surname" /></th>

@@ -58,8 +58,9 @@
  				numberOfStudentsAtLeastOneDebt++;
  			} );
  			numberOfStudentsAtLeastOneDebt /= 2;
- 			pourcentageOfStudentsAtLeastOneDebt = $('#numberOfStudents').text() / numberOfStudentsAtLeastOneDebt;
- 			$('#numberOfStudentsAtLeastOneDebt').html(pourcentageOfStudentsAtLeastOneDebt+'<sup style="font-size: 20px">%</sup>');
+ 			pourcentageOfStudentsAtLeastOneDebt = numberOfStudentsAtLeastOneDebt / ($('#numberOfStudents').text());
+ 			pourcentageOfStudentsAtLeastOneDebt = pourcentageOfStudentsAtLeastOneDebt.toFixed(2);
+ 			$('#pourcentageOfStudentsAtLeastOneDebt').html(pourcentageOfStudentsAtLeastOneDebt+'<sup style="font-size: 20px">%</sup>');
  		}
  	}); 
 

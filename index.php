@@ -1,3 +1,9 @@
+<?php
+if (isset($_POST['button']))
+{
+	exec("./bash/reload");
+}
+?>
 <!DOCTYPE html>
 <!--
 This is a starter template page. Use this page to start your new project from
@@ -13,11 +19,13 @@ scratch. This page gets rid of all links and provides the needed markup only.
 	<!-- Bootstrap 3.3.5 -->
 	<link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
 	<!-- Font Awesome -->
-	<link rel="stylesheet" href="css/font-awesome.min.css">
+	<!-- <link rel="stylesheet" href="css/font-awesome.min.css"> -->
 	<!-- Ionicons -->
-	<link rel="stylesheet" href="css/ionicons.min.css">
+	
 	<!-- Theme style -->
 	<link rel="stylesheet" href="dist/css/AdminLTE.min.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
     <!-- AdminLTE Skins. We have chosen the skin-blue for this starter
           page. However, you can choose any other skin. Make sure you
           apply the skin class to the body tag so the changes take effect.
@@ -450,12 +458,13 @@ scratch. This page gets rid of all links and provides the needed markup only.
 				<div class="tab-pane" id="control-sidebar-stats-tab">Stats Tab Content</div><!-- /.tab-pane -->
 				<!-- Settings tab content -->
 				<div class="tab-pane" id="control-sidebar-settings-tab">
-					<form method="post">
+					<form method="POST">
 						<h3 class="control-sidebar-heading">General Settings</h3>
 						<div class="form-group">
 							<label class="control-sidebar-subheading">
 								Reload database <br/><br/> 
-								<button class="btn btn-primary center-block btn-sm"><span class="glyphicon glyphicon-refresh"></span> Refresh</button>
+								
+							<button name="button" class="btn btn-primary center-block btn-sm" ><span class="glyphicon glyphicon-refresh"></span> Reload</button>
 							</label>
 							<br/> 
 							<p>

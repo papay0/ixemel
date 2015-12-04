@@ -57,8 +57,7 @@
  			$(xml).find('student').each( function(){ 
  				numberOfStudentsAtLeastOneDebt++;
  			} );
- 			numberOfStudentsAtLeastOneDebt /= 2;
- 			pourcentageOfStudentsAtLeastOneDebt = numberOfStudentsAtLeastOneDebt / ($('#numberOfStudents').text());
+ 			pourcentageOfStudentsAtLeastOneDebt = (numberOfStudentsAtLeastOneDebt / ($('#numberOfStudents').text())*100);
  			pourcentageOfStudentsAtLeastOneDebt = pourcentageOfStudentsAtLeastOneDebt.toFixed(2);
  			$('#pourcentageOfStudentsAtLeastOneDebt').html(pourcentageOfStudentsAtLeastOneDebt+'<sup style="font-size: 20px">%</sup>');
  		}

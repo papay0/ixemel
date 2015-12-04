@@ -85,16 +85,16 @@
 		<firstName>Ralf</firstName>
 		<lastName>Aigal</lastName>
 		<birthDate>07/28/1995</birthDate>
-		<year>4</year>
+		<year>3</year>
 		<cursus>Mathematiques</cursus>
 		<group>GMM_A</group>
 		<marks>
-			<studyYear year="3">
+			<studyYear year="2">
 				<mark idSubject="5">01</mark>
 				<mark idSubject="6">02</mark>
 				<mark idSubject="7">03</mark>
 			</studyYear>
-			<studyYear year="4">
+			<studyYear year="3">
 				<mark idSubject="3">20</mark>
 				<mark idSubject="4">20</mark>
 				<mark idSubject="5">19</mark>

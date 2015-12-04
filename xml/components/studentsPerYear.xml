@@ -74,25 +74,6 @@
 				<mark idSubject="1">00</mark>
 			</studyYear>
 		</marks>
-	</student><student id="5" xmlns:xi="http://www.w3.org/2001/XInclude">
-		<firstName>Ralf</firstName>
-		<lastName>Aigal</lastName>
-		<birthDate>07/28/1995</birthDate>
-		<year>4</year>
-		<cursus>Mathematiques</cursus>
-		<group>GMM_A</group>
-		<marks>
-			<studyYear year="3">
-				<mark idSubject="5">01</mark>
-				<mark idSubject="6">02</mark>
-				<mark idSubject="7">03</mark>
-			</studyYear>
-			<studyYear year="4">
-				<mark idSubject="3">20</mark>
-				<mark idSubject="4">20</mark>
-				<mark idSubject="5">19</mark>
-			</studyYear>
-		</marks>
 	</student><student id="6" xmlns:xi="http://www.w3.org/2001/XInclude">
 		<firstName>Vincent</firstName>
 		<lastName>Le Gal</lastName>
@@ -134,6 +115,25 @@
 				<mark idSubject="9">15</mark>
 				<mark idSubject="10">18</mark>
 				<mark idSubject="11">19</mark>
+			</studyYear>
+		</marks>
+	</student></students></year><year name="3"><students><student id="5" xmlns:xi="http://www.w3.org/2001/XInclude">
+		<firstName>Ralf</firstName>
+		<lastName>Aigal</lastName>
+		<birthDate>07/28/1995</birthDate>
+		<year>3</year>
+		<cursus>Mathematiques</cursus>
+		<group>GMM_A</group>
+		<marks>
+			<studyYear year="2">
+				<mark idSubject="5">01</mark>
+				<mark idSubject="6">02</mark>
+				<mark idSubject="7">03</mark>
+			</studyYear>
+			<studyYear year="3">
+				<mark idSubject="3">20</mark>
+				<mark idSubject="4">20</mark>
+				<mark idSubject="5">19</mark>
 			</studyYear>
 		</marks>
 	</student></students></year></years>

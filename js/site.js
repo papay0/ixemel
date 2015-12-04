@@ -21,6 +21,30 @@
  		});    
  	});
 
+ 	$('#teachersByCursus').click(function() {
+ 		$.get('html/teachersPerCursus.html', function(data) {
+ 			$('.content').html(data);
+ 		});    
+ 	});
+
+ 	$('#teachersByGroup').click(function() {
+ 		$.get('html/teachersPerGroup.html', function(data) {
+ 			$('.content').html(data);
+ 		});    
+ 	});
+
+ 	$('#teachersBySubject').click(function() {
+ 		$.get('html/teachersPerSubject.html', function(data) {
+ 			$('.content').html(data);
+ 		});    
+ 	});
+
+ 	$('#teachersByYear').click(function() {
+ 		$.get('html/teachersPerYear.html', function(data) {
+ 			$('.content').html(data);
+ 		});    
+ 	});
+
  	$('#subjectsByCursus').click(function() {
  		$.get('html/subjectsPerCursus.html', function(data) {
  			$('.content').html(data);

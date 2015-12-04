@@ -19,7 +19,19 @@
  		$.get('html/studentsPerCursus.html', function(data) {
  			$('.content').html(data);
  		});    
- 	});  
+ 	});
+
+ 	$('#subjectsByCursus').click(function() {
+ 		$.get('html/subjectsPerCursus.html', function(data) {
+ 			$('.content').html(data);
+ 		});    
+ 	});
+
+ 	$('#subjectsByTeacher').click(function() {
+ 		$.get('html/subjectsPerTeacher.html', function(data) {
+ 			$('.content').html(data);
+ 		});    
+ 	});
 
  	$.ajax( {
  		type: "GET",

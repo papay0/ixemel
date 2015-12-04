@@ -32,6 +32,9 @@ scratch. This page gets rid of all links and provides the needed markup only.
       -->
       <link rel="stylesheet" href="dist/css/skins/skin-blue.min.css">
 
+      <!-- CSS PERSO -->
+      <link rel="stylesheet" href="css/style.css">
+
       <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
       <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -295,13 +298,17 @@ scratch. This page gets rid of all links and provides the needed markup only.
 					<li class="treeview">
 						<a href="#"><i class="fa fa-link"></i> <span>Enseignants</span> <i class="fa fa-angle-left pull-right"></i></a>
 						<ul class="treeview-menu">
-							<li><a href="#">Liste matières</a></li>
+							<li><a href="#" id="teachersByCursus">Par cursus</a></li>
+							<li><a href="#" id="teachersByGroup">Par groupe</a></li>
+							<li><a href="#" id="teachersBySubject">Par matière</a></li>
+							<li><a href="#" id="teachersByYear">Par année</a></li>
 						</ul>
 					</li>
 					<li class="treeview">
 						<a href="#"><i class="fa fa-link"></i> <span>Matières</span> <i class="fa fa-angle-left pull-right"></i></a>
 						<ul class="treeview-menu">
-							<li><a href="#">Liste enseignants</a></li>
+							<li><a href="#" id="subjectsByCursus">Par cursus</a></li>
+							<li><a href="#" id="subjectsByTeacher">Par professeur</a></li>
 						</ul>
 					</li>
 					<li class="treeview">

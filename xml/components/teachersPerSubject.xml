@@ -1,0 +1,215 @@
+<subjects><subject id="0"><title xmlns:xi="http://www.w3.org/2001/XInclude">Software Engineering I</title><code xmlns:xi="http://www.w3.org/2001/XInclude">SE1</code><cursuss xmlns:xi="http://www.w3.org/2001/XInclude">
+			<cursus>Informatique</cursus>
+			<cursus>Civil</cursus>
+		</cursuss><teachers><teacher id="0" xmlns:xi="http://www.w3.org/2001/XInclude">
+		<name>Delorme</name>
+		<surname>Gautier</surname>
+		<birthdate>04/03/1994</birthdate>
+		<grade>Professor</grade>
+		<subjects>
+			<subject id="0"/>
+			<subject id="1"/>
+		</subjects>
+		<groups>
+			<group>IR_A</group>
+			<group>IC_B</group>
+			<group>IC_B</group>
+		</groups>
+	</teacher><teacher id="1" xmlns:xi="http://www.w3.org/2001/XInclude">
+		<name>Papayo</name>
+		<surname>Arthur</surname>
+		<birthdate>12/04/1983</birthdate>
+		<grade>Doctor</grade>
+		<subjects>
+			<subject id="0"/>
+			<subject id="2"/>
+		</subjects>
+		<groups>
+			<group>IR_B</group>
+			<group>IR_A</group>
+		</groups>
+	</teacher></teachers></subject><subject id="1"><title xmlns:xi="http://www.w3.org/2001/XInclude">Software Engineering II</title><code xmlns:xi="http://www.w3.org/2001/XInclude">SE2</code><cursuss xmlns:xi="http://www.w3.org/2001/XInclude">
+			<cursus>Informatique</cursus>
+			<cursus>Civil</cursus>
+		</cursuss><teachers><teacher id="0" xmlns:xi="http://www.w3.org/2001/XInclude">
+		<name>Delorme</name>
+		<surname>Gautier</surname>
+		<birthdate>04/03/1994</birthdate>
+		<grade>Professor</grade>
+		<subjects>
+			<subject id="0"/>
+			<subject id="1"/>
+		</subjects>
+		<groups>
+			<group>IR_A</group>
+			<group>IC_B</group>
+			<group>IC_B</group>
+		</groups>
+	</teacher></teachers></subject><subject id="2"><title xmlns:xi="http://www.w3.org/2001/XInclude">Software Engineering III</title><code xmlns:xi="http://www.w3.org/2001/XInclude">SE3</code><cursuss xmlns:xi="http://www.w3.org/2001/XInclude">
+			<cursus>Informatique</cursus>
+		</cursuss><teachers><teacher id="1" xmlns:xi="http://www.w3.org/2001/XInclude">
+		<name>Papayo</name>
+		<surname>Arthur</surname>
+		<birthdate>12/04/1983</birthdate>
+		<grade>Doctor</grade>
+		<subjects>
+			<subject id="0"/>
+			<subject id="2"/>
+		</subjects>
+		<groups>
+			<group>IR_B</group>
+			<group>IR_A</group>
+		</groups>
+	</teacher></teachers></subject><subject id="3"><title xmlns:xi="http://www.w3.org/2001/XInclude">Matlab I</title><code xmlns:xi="http://www.w3.org/2001/XInclude">M1</code><cursuss xmlns:xi="http://www.w3.org/2001/XInclude">
+			<cursus>Mathematiques</cursus>
+		</cursuss><teachers><teacher id="2" xmlns:xi="http://www.w3.org/2001/XInclude">
+		<name>Micheau</name>
+		<surname>Bastien</surname>
+		<birthdate>06/24/1990</birthdate>
+		<grade>Doctor</grade>
+		<subjects>
+			<subject id="3"/>
+		</subjects>
+		<groups>
+			<group>GMM_A</group>
+		</groups>
+	</teacher></teachers></subject><subject id="4"><title xmlns:xi="http://www.w3.org/2001/XInclude">Matlab II</title><code xmlns:xi="http://www.w3.org/2001/XInclude">M2</code><cursuss xmlns:xi="http://www.w3.org/2001/XInclude">
+			<cursus>Mathematiques</cursus>
+		</cursuss><teachers><teacher id="3" xmlns:xi="http://www.w3.org/2001/XInclude">
+		<name>Mescudi</name>
+		<surname>Solo</surname>
+		<birthdate>01/01/2000</birthdate>
+		<grade>Doctor</grade>
+		<subjects>
+			<subject id="4"/>
+			<subject id="5"/>
+			<subject id="6"/>
+		</subjects>
+		<groups>
+			<group>GMM_A</group>
+		</groups>
+	</teacher></teachers></subject><subject id="5"><title xmlns:xi="http://www.w3.org/2001/XInclude">Matlab III</title><code xmlns:xi="http://www.w3.org/2001/XInclude">M3</code><cursuss xmlns:xi="http://www.w3.org/2001/XInclude">
+			<cursus>Mathematiques</cursus>
+		</cursuss><teachers><teacher id="3" xmlns:xi="http://www.w3.org/2001/XInclude">
+		<name>Mescudi</name>
+		<surname>Solo</surname>
+		<birthdate>01/01/2000</birthdate>
+		<grade>Doctor</grade>
+		<subjects>
+			<subject id="4"/>
+			<subject id="5"/>
+			<subject id="6"/>
+		</subjects>
+		<groups>
+			<group>GMM_A</group>
+		</groups>
+	</teacher></teachers></subject><subject id="6"><title xmlns:xi="http://www.w3.org/2001/XInclude">Beton I</title><code xmlns:xi="http://www.w3.org/2001/XInclude">B1</code><cursuss xmlns:xi="http://www.w3.org/2001/XInclude">
+			<cursus>Civil</cursus>
+			<cursus>Mathematiques</cursus>
+		</cursuss><teachers><teacher id="3" xmlns:xi="http://www.w3.org/2001/XInclude">
+		<name>Mescudi</name>
+		<surname>Solo</surname>
+		<birthdate>01/01/2000</birthdate>
+		<grade>Doctor</grade>
+		<subjects>
+			<subject id="4"/>
+			<subject id="5"/>
+			<subject id="6"/>
+		</subjects>
+		<groups>
+			<group>GMM_A</group>
+		</groups>
+	</teacher><teacher id="4" xmlns:xi="http://www.w3.org/2001/XInclude">
+		<name>LeGal</name>
+		<surname>Vincent</surname>
+		<birthdate>09/22/1991</birthdate>
+		<grade>Doctor</grade>
+		<subjects>
+			<subject id="6"/>
+			<subject id="7"/>
+			<subject id="8"/>
+		</subjects>
+		<groups>
+			<group>IC_A</group>
+			<group>IC_B</group>
+		</groups>
+	</teacher></teachers></subject><subject id="7"><title xmlns:xi="http://www.w3.org/2001/XInclude">Beton II</title><code xmlns:xi="http://www.w3.org/2001/XInclude">B2</code><cursuss xmlns:xi="http://www.w3.org/2001/XInclude">
+			<cursus>Civil</cursus>
+		</cursuss><teachers><teacher id="4" xmlns:xi="http://www.w3.org/2001/XInclude">
+		<name>LeGal</name>
+		<surname>Vincent</surname>
+		<birthdate>09/22/1991</birthdate>
+		<grade>Doctor</grade>
+		<subjects>
+			<subject id="6"/>
+			<subject id="7"/>
+			<subject id="8"/>
+		</subjects>
+		<groups>
+			<group>IC_A</group>
+			<group>IC_B</group>
+		</groups>
+	</teacher></teachers></subject><subject id="8"><title xmlns:xi="http://www.w3.org/2001/XInclude">Beton III</title><code xmlns:xi="http://www.w3.org/2001/XInclude">B3</code><cursuss xmlns:xi="http://www.w3.org/2001/XInclude">
+			<cursus>Civil</cursus>
+		</cursuss><teachers><teacher id="4" xmlns:xi="http://www.w3.org/2001/XInclude">
+		<name>LeGal</name>
+		<surname>Vincent</surname>
+		<birthdate>09/22/1991</birthdate>
+		<grade>Doctor</grade>
+		<subjects>
+			<subject id="6"/>
+			<subject id="7"/>
+			<subject id="8"/>
+		</subjects>
+		<groups>
+			<group>IC_A</group>
+			<group>IC_B</group>
+		</groups>
+	</teacher></teachers></subject><subject id="9"><title xmlns:xi="http://www.w3.org/2001/XInclude">Atome I</title><code xmlns:xi="http://www.w3.org/2001/XInclude">A1</code><cursuss xmlns:xi="http://www.w3.org/2001/XInclude">
+			<cursus>Chimie</cursus>
+			<cursus>Civil</cursus>
+		</cursuss><teachers><teacher id="5" xmlns:xi="http://www.w3.org/2001/XInclude">
+		<name>Nieto</name>
+		<surname>Laure</surname>
+		<birthdate>01/13/1992</birthdate>
+		<grade>Professor</grade>
+		<subjects>
+			<subject id="9"/>
+			<subject id="10"/>
+		</subjects>
+		<groups>
+			<group>IC_A</group>
+			<group>IC_B</group>
+			<group>ICBE_A</group>
+		</groups>
+	</teacher></teachers></subject><subject id="10"><title xmlns:xi="http://www.w3.org/2001/XInclude">Atome II</title><code xmlns:xi="http://www.w3.org/2001/XInclude">A2</code><cursuss xmlns:xi="http://www.w3.org/2001/XInclude">
+			<cursus>Chimie</cursus>
+			<cursus>Civil</cursus>
+		</cursuss><teachers><teacher id="5" xmlns:xi="http://www.w3.org/2001/XInclude">
+		<name>Nieto</name>
+		<surname>Laure</surname>
+		<birthdate>01/13/1992</birthdate>
+		<grade>Professor</grade>
+		<subjects>
+			<subject id="9"/>
+			<subject id="10"/>
+		</subjects>
+		<groups>
+			<group>IC_A</group>
+			<group>IC_B</group>
+			<group>ICBE_A</group>
+		</groups>
+	</teacher></teachers></subject><subject id="11"><title xmlns:xi="http://www.w3.org/2001/XInclude">Atome III</title><code xmlns:xi="http://www.w3.org/2001/XInclude">A3</code><cursuss xmlns:xi="http://www.w3.org/2001/XInclude">
+			<cursus>Chimie</cursus>
+		</cursuss><teachers><teacher id="6" xmlns:xi="http://www.w3.org/2001/XInclude">
+		<name>Bricard</name>
+		<surname>Laure</surname>
+		<birthdate>12/31/1800</birthdate>
+		<grade>Professor</grade>
+		<subjects>
+			<subject id="11"/>
+		</subjects>
+		<groups>
+			<group>ICBE_A</group>
+		</groups>
+	</teacher></teachers></subject></subjects>

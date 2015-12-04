@@ -13,7 +13,7 @@ scratch. This page gets rid of all links and provides the needed markup only.
 <head>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<title>Admin IXEMEL</title>
+	<title>IXEMEL</title>
 	<!-- Tell the browser to be responsive to screen width -->
 	<meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
 	<!-- Bootstrap 3.3.5 -->
@@ -309,25 +309,6 @@ scratch. This page gets rid of all links and provides the needed markup only.
 						<ul class="treeview-menu">
 							<li><a href="#" id="subjectsByCursus">Par cursus</a></li>
 							<li><a href="#" id="subjectsByTeacher">Par professeur</a></li>
-						</ul>
-					</li>
-					<li class="treeview">
-						<a href="#"><i class="fa fa-link"></i> <span>Cursus</span> <i class="fa fa-angle-left pull-right"></i></a>
-						<ul class="treeview-menu">
-							<li><a href="#">Liste matières</a></li>
-							<li><a href="#">Liste enseignants</a></li>
-						</ul>
-					</li>
-					<li class="treeview">
-						<a href="#"><i class="fa fa-link"></i> <span>Groupes</span> <i class="fa fa-angle-left pull-right"></i></a>
-						<ul class="treeview-menu">
-							<li><a href="#">Liste enseignants</a></li>
-						</ul>
-					</li>
-					<li class="treeview">
-						<a href="#"><i class="fa fa-link"></i> <span>Années</span> <i class="fa fa-angle-left pull-right"></i></a>
-						<ul class="treeview-menu">
-							<li><a href="#">Liste enseignants</a></li>
 						</ul>
 					</li>
 				</ul><!-- /.sidebar-menu -->

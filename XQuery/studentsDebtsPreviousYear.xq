@@ -7,7 +7,7 @@ let $students := $source/project/students/student
             for $student in $students
                 where $student/marks/studyYear[@year < $student/year]/mark = 00
                 return 
-                    <student> {$student} </student>
+                    $student
                     
         }
         </students>

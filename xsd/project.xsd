@@ -13,6 +13,7 @@
      </xs:simpleType>
      <xs:complexType name="markType" mixed="true">
           <xs:attribute name="idSubject" type="idType" use="required"/>
+          <xs:attribute name="mark" type="xs:integer" use="required"/>
      </xs:complexType>
      <xs:complexType name="marksType">
           <xs:sequence>

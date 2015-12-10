@@ -1,1 +1,44 @@
-<students/>
+<students><student id="2" xmlns:xi="http://www.w3.org/2001/XInclude">
+		<firstName>Gautier</firstName>
+		<lastName>Delorme</lastName>
+		<birthDate>10/10/1994</birthDate>
+		<year>4</year>
+		<cursus>Informatique</cursus>
+		<group>IR_A</group>
+		<marks>
+			<studyYear year="3">
+				<mark idSubject="5" mark="00"/>
+				<mark idSubject="6" mark="00"/>
+				<mark idSubject="7" mark="03"/>
+			</studyYear>
+			<studyYear year="4">
+				<mark idSubject="0" mark="03"/>
+				<mark idSubject="2" mark="04"/>
+				<mark idSubject="1" mark="01"/>
+			</studyYear>
+		</marks>
+	</student><student id="7" xmlns:xi="http://www.w3.org/2001/XInclude">
+		<firstName>Marine</firstName>
+		<lastName>Dubois</lastName>
+		<birthDate>07/19/1994</birthDate>
+		<year>4</year>
+		<cursus>Chimie</cursus>
+		<group>ICBE_A</group>
+		<marks>
+			<studyYear year="2">
+				<mark idSubject="5" mark="00"/>
+				<mark idSubject="6" mark="00"/>
+				<mark idSubject="7" mark="00"/>
+			</studyYear>
+			<studyYear year="3">
+				<mark idSubject="5" mark="01"/>
+				<mark idSubject="6" mark="02"/>
+				<mark idSubject="7" mark="03"/>
+			</studyYear>
+			<studyYear year="4">
+				<mark idSubject="9" mark="15"/>
+				<mark idSubject="10" mark="18"/>
+				<mark idSubject="11" mark="19"/>
+			</studyYear>
+		</marks>
+	</student></students>

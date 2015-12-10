@@ -5,7 +5,7 @@ let $students := $source/project/students/student
     return
         <students>{
             for $student in $students
-                where (count($student/marks/studyYear[@year < $student/year]/mark = 00) = 0) and (count($student/marks/studyYear[@year = $student/year]/mark = 00) > 0)
+                where (every $s in $student/marks/studyYear[@year < $student/year]/mark/@mark satisfies xs:integer($s) ne 00) and (some $st in $student/marks/studyYear[@year = $student/year]/mark/@mark satisfies xs:integer($st) eq 00)
                 return 
                     $student
         }

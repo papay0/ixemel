@@ -7,14 +7,14 @@
 		<group>IR_A</group>
 		<marks>
 			<studyYear year="4">
-				<mark idSubject="0">19</mark>
-				<mark idSubject="2">20</mark>
-				<mark idSubject="1">19</mark>
+				<mark idSubject="0" mark="19"/>
+				<mark idSubject="2" mark="20"/>
+				<mark idSubject="1" mark="19"/>
 			</studyYear>
 			<studyYear year="3">
-				<mark idSubject="5">00</mark>
-				<mark idSubject="6">20</mark>
-				<mark idSubject="7">19</mark>
+				<mark idSubject="5" mark="00"/>
+				<mark idSubject="6" mark="20"/>
+				<mark idSubject="7" mark="19"/>
 			</studyYear>
 		</marks>
 	</student><student id="2" xmlns:xi="http://www.w3.org/2001/XInclude">
@@ -26,14 +26,14 @@
 		<group>IR_A</group>
 		<marks>
 			<studyYear year="3">
-				<mark idSubject="5">00</mark>
-				<mark idSubject="6">00</mark>
-				<mark idSubject="7">03</mark>
+				<mark idSubject="5" mark="00"/>
+				<mark idSubject="6" mark="00"/>
+				<mark idSubject="7" mark="03"/>
 			</studyYear>
 			<studyYear year="4">
-				<mark idSubject="0">03</mark>
-				<mark idSubject="2">04</mark>
-				<mark idSubject="1">01</mark>
+				<mark idSubject="0" mark="03"/>
+				<mark idSubject="2" mark="04"/>
+				<mark idSubject="1" mark="01"/>
 			</studyYear>
 		</marks>
 	</student><student id="4" xmlns:xi="http://www.w3.org/2001/XInclude">
@@ -45,14 +45,33 @@
 		<group>IR_B</group>
 		<marks>
 			<studyYear year="3">
-				<mark idSubject="5">01</mark>
-				<mark idSubject="6">02</mark>
-				<mark idSubject="7">00</mark>
+				<mark idSubject="5" mark="01">01</mark>
+				<mark idSubject="6" mark="02">02</mark>
+				<mark idSubject="7" mark="00">00</mark>
 			</studyYear>
 			<studyYear year="4">
-				<mark idSubject="0">01</mark>
-				<mark idSubject="2">00</mark>
-				<mark idSubject="1">00</mark>
+				<mark idSubject="0" mark="01"/>
+				<mark idSubject="2" mark="00"/>
+				<mark idSubject="1" mark="00"/>
+			</studyYear>
+		</marks>
+	</student><student id="6" xmlns:xi="http://www.w3.org/2001/XInclude">
+		<firstName>Vincent</firstName>
+		<lastName>Le Gal</lastName>
+		<birthDate>12/25/1994</birthDate>
+		<year>4</year>
+		<cursus>Civil</cursus>
+		<group>IC_A</group>
+		<marks>
+			<studyYear year="3">
+				<mark idSubject="5" mark="00"/>
+				<mark idSubject="6" mark="02"/>
+				<mark idSubject="7" mark="03"/>
+			</studyYear>
+			<studyYear year="4">
+				<mark idSubject="6" mark="01"/>
+				<mark idSubject="7" mark="01"/>
+				<mark idSubject="8" mark="19"/>
 			</studyYear>
 		</marks>
 	</student><student id="7" xmlns:xi="http://www.w3.org/2001/XInclude">
@@ -64,19 +83,19 @@
 		<group>ICBE_A</group>
 		<marks>
 			<studyYear year="2">
-				<mark idSubject="5">00</mark>
-				<mark idSubject="6">00</mark>
-				<mark idSubject="7">00</mark>
+				<mark idSubject="5" mark="00"/>
+				<mark idSubject="6" mark="00"/>
+				<mark idSubject="7" mark="00"/>
 			</studyYear>
 			<studyYear year="3">
-				<mark idSubject="5">01</mark>
-				<mark idSubject="6">02</mark>
-				<mark idSubject="7">03</mark>
+				<mark idSubject="5" mark="01"/>
+				<mark idSubject="6" mark="02"/>
+				<mark idSubject="7" mark="03"/>
 			</studyYear>
 			<studyYear year="4">
-				<mark idSubject="9">15</mark>
-				<mark idSubject="10">18</mark>
-				<mark idSubject="11">19</mark>
+				<mark idSubject="9" mark="15"/>
+				<mark idSubject="10" mark="18"/>
+				<mark idSubject="11" mark="19"/>
 			</studyYear>
 		</marks>
 	</student></students>

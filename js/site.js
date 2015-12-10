@@ -12,6 +12,12 @@
  		$.get('html/studentsPerGroup.html', function(data) {
  			$('.content').html(data);
  		});    
+ 	}); 
+ 	$('#studentsNoDebtAtLeastOneUFNoValidate').click(function() {
+ 		changeText('Étudiants sans dette, au moins une UF non validée');
+ 		$.get('html/studentsNoDebtAtLeastOneUFNoValidate.html', function(data) {
+ 			$('.content').html(data);
+ 		});    
  	});  
 
  	$('#studentsByYear').click(function() {
@@ -71,10 +77,34 @@
  	});
 
  	$('#studentsDebtsPreviousYear').click(function() {
+ 		changeText('Etudiants avec dettes des années précédentes');
  		$.get('html/studentsDebtsPreviousYear.html', function(data) {
  			$('.content').html(data);
  		});    
  	});
+
+ 	$('#students2DebtsNoUFNoValidate').click(function() {
+ 		changeText("Étudiants avec deux dettes, et pas d'UF non validée");
+ 		$.get('html/students2DebtsNoUFNoValidate.html', function(data) {
+ 			$('.content').html(data);
+ 		});    
+ 	});
+
+
+ 	$('#students1DebtNoUFNoValidate').click(function() {
+ 		changeText("Étudiants avec une dette, et pas d'UF non validée");
+ 		$.get('html/students1DebtNoUFNoValidate.html', function(data) {
+ 			$('.content').html(data);
+ 		});    
+ 	});
+ 	
+ 	$('#studentsAtLeast2Debts').click(function() {
+ 		changeText('Étudiants avec au moins deux dettes');
+ 		$.get('html/studentsAtLeast2Debts.html', function(data) {
+ 			$('.content').html(data);
+ 		});    
+ 	});
+
 
  	$.ajax( {
  		type: "GET",

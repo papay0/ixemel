@@ -1,1 +1,20 @@
-<students/>
+<students><student id="3" xmlns:xi="http://www.w3.org/2001/XInclude">
+		<firstName>Julien</firstName>
+		<lastName>Noel</lastName>
+		<birthDate>01/02/1994</birthDate>
+		<year>4</year>
+		<cursus>Informatique</cursus>
+		<group>IR_B</group>
+		<marks>
+			<studyYear year="3">
+				<mark idSubject="5" mark="01"/>
+				<mark idSubject="6" mark="02"/>
+				<mark idSubject="7" mark="03"/>
+			</studyYear>
+			<studyYear year="4">
+				<mark idSubject="0" mark="00"/>
+				<mark idSubject="2" mark="00"/>
+				<mark idSubject="1" mark="12"/>
+			</studyYear>
+		</marks>
+	</student></students>

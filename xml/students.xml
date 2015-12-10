@@ -8,14 +8,14 @@
 		<group>IR_A</group>
 		<marks>
 			<studyYear year="4">
-				<mark idSubject="0">19</mark>
-				<mark idSubject="2">20</mark>
-				<mark idSubject="1">19</mark>
+				<mark idSubject="0" mark="19"></mark>
+				<mark idSubject="2" mark="20"></mark>
+				<mark idSubject="1" mark="19"></mark>
 			</studyYear>
 			<studyYear year="3">
-				<mark idSubject="5">00</mark>
-				<mark idSubject="6">20</mark>
-				<mark idSubject="7">19</mark>
+				<mark idSubject="5" mark="00"></mark>
+				<mark idSubject="6" mark="20"></mark>
+				<mark idSubject="7" mark="19"></mark>
 			</studyYear>
 		</marks>
 	</student>
@@ -28,14 +28,14 @@
 		<group>IR_A</group>
 		<marks>
 			<studyYear year="3">
-				<mark idSubject="5">00</mark>
-				<mark idSubject="6">00</mark>
-				<mark idSubject="7">03</mark>
+				<mark idSubject="5" mark="00"></mark>
+				<mark idSubject="6" mark="00"></mark>
+				<mark idSubject="7" mark="03"></mark>
 			</studyYear>
 			<studyYear year="4">
-				<mark idSubject="0">03</mark>
-				<mark idSubject="2">04</mark>
-				<mark idSubject="1">01</mark>
+				<mark idSubject="0" mark="03"></mark>
+				<mark idSubject="2" mark="04"></mark>
+				<mark idSubject="1" mark="01"></mark>
 			</studyYear>
 		</marks>
 	</student>
@@ -48,14 +48,14 @@
 		<group>IR_B</group>
 		<marks>
 			<studyYear year="3">
-				<mark idSubject="5">01</mark>
-				<mark idSubject="6">02</mark>
-				<mark idSubject="7">03</mark>
+				<mark idSubject="5" mark="01"></mark>
+				<mark idSubject="6" mark="02"></mark>
+				<mark idSubject="7" mark="03"></mark>
 			</studyYear>
 			<studyYear year="4">
-				<mark idSubject="0">00</mark>
-				<mark idSubject="2">00</mark>
-				<mark idSubject="1">12</mark>
+				<mark idSubject="0" mark="00"></mark>
+				<mark idSubject="2" mark="00"></mark>
+				<mark idSubject="1" mark="12"></mark>
 			</studyYear>
 		</marks>
 	</student>
@@ -68,14 +68,14 @@
 		<group>IR_B</group>
 		<marks>
 			<studyYear year="3">
-				<mark idSubject="5">01</mark>
-				<mark idSubject="6">02</mark>
-				<mark idSubject="7">00</mark>
+				<mark idSubject="5" mark="01">01</mark>
+				<mark idSubject="6" mark="02">02</mark>
+				<mark idSubject="7" mark="00">00</mark>
 			</studyYear>
 			<studyYear year="4">
-				<mark idSubject="0">01</mark>
-				<mark idSubject="2">00</mark>
-				<mark idSubject="1">00</mark>
+				<mark idSubject="0" mark="01"></mark>
+				<mark idSubject="2" mark="00"></mark>
+				<mark idSubject="1" mark="00"></mark>
 			</studyYear>
 		</marks>
 	</student>
@@ -88,14 +88,14 @@
 		<group>GMM_A</group>
 		<marks>
 			<studyYear year="2">
-				<mark idSubject="5">01</mark>
-				<mark idSubject="6">02</mark>
-				<mark idSubject="7">03</mark>
+				<mark idSubject="5" mark="01"></mark>
+				<mark idSubject="6" mark="02"></mark>
+				<mark idSubject="7" mark="03"></mark>
 			</studyYear>
 			<studyYear year="3">
-				<mark idSubject="3">20</mark>
-				<mark idSubject="4">20</mark>
-				<mark idSubject="5">19</mark>
+				<mark idSubject="3" mark="20"></mark>
+				<mark idSubject="4" mark="20"></mark>
+				<mark idSubject="5" mark="19"></mark>
 			</studyYear>
 		</marks>
 	</student>
@@ -108,14 +108,14 @@
 		<group>IC_A</group>
 		<marks>
 			<studyYear year="3">
-				<mark idSubject="5">01</mark>
-				<mark idSubject="6">02</mark>
-				<mark idSubject="7">03</mark>
+				<mark idSubject="5" mark="00"></mark>
+				<mark idSubject="6" mark="02"></mark>
+				<mark idSubject="7" mark="03"></mark>
 			</studyYear>
 			<studyYear year="4">
-				<mark idSubject="6">00</mark>
-				<mark idSubject="7">00</mark>
-				<mark idSubject="8">19</mark>
+				<mark idSubject="6" mark="01"></mark>
+				<mark idSubject="7" mark="01"></mark>
+				<mark idSubject="8" mark="19"></mark>
 			</studyYear>
 		</marks>
 	</student>
@@ -128,19 +128,19 @@
 		<group>ICBE_A</group>
 		<marks>
 			<studyYear year="2">
-				<mark idSubject="5">00</mark>
-				<mark idSubject="6">00</mark>
-				<mark idSubject="7">00</mark>
+				<mark idSubject="5" mark="00"></mark>
+				<mark idSubject="6" mark="00"></mark>
+				<mark idSubject="7" mark="00"></mark>
 			</studyYear>
 			<studyYear year="3">
-				<mark idSubject="5">01</mark>
-				<mark idSubject="6">02</mark>
-				<mark idSubject="7">03</mark>
+				<mark idSubject="5" mark="01"></mark>
+				<mark idSubject="6" mark="02"></mark>
+				<mark idSubject="7" mark="03"></mark>
 			</studyYear>
 			<studyYear year="4">
-				<mark idSubject="9">15</mark>
-				<mark idSubject="10">18</mark>
-				<mark idSubject="11">19</mark>
+				<mark idSubject="9" mark="15"></mark>
+				<mark idSubject="10" mark="18"></mark>
+				<mark idSubject="11" mark="19"></mark>
 			</studyYear>
 		</marks>
 	</student>

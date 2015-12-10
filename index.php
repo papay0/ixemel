@@ -289,7 +289,7 @@ scratch. This page gets rid of all links and provides the needed markup only.
 							<li><a href="#" id="studentsByYear">Par année</a></li>
 							<li><a href="#" id="studentsByGroup">Par groupe</a></li>
 							<li><a href="#" id="studentsDebtsPreviousYear">Avec dettes des années<br/>précédentes</a></li>
-							<li><a href="#" id="studentsNoDebtAtLeastPneUFNoValidate">Avec aucune dette et ayant<br/>au moins une UF non validée</a></li>
+							<li><a href="#" id="studentsNoDebtAtLeastOneUFNoValidate">Avec aucune dette et ayant<br/>au moins une UF non validée</a></li>
 							<li><a href="#" id="students2DebtsNoUFNoValidate">Avec aucune UF non validée<br/>et deux dettes</a></li>
 							<li><a href="#" id="students1DebtNoUFNoValidate">Avec aucune UF non validée<br/>et une dette</a></li>
 							<li><a href="#" id="studentsAtLeast2Debts">Avec au moins 2 dettes</a></li>

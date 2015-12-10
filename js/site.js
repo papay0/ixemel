@@ -71,7 +71,6 @@
  	});
 
  	$('#studentsDebtsPreviousYear').click(function() {
- 		changeText('Étudiants ayant des dettes les années précédentes');
  		$.get('html/studentsDebtsPreviousYear.html', function(data) {
  			$('.content').html(data);
  		});    

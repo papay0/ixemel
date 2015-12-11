@@ -2,7 +2,6 @@
 <xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
 	<xsl:template match="/students">
 		<div class="container">
-			<h3>Étudiants qui ont au moins deux dettes</h3>
 			<table class="table table-striped">
 				<thead>
 					<tr>

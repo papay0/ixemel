@@ -433,11 +433,9 @@ scratch. This page gets rid of all links and provides the needed markup only.
 					<form method="POST">
 						<h3 class="control-sidebar-heading">General Settings</h3>
 						<div class="form-group">
-							<label class="control-sidebar-subheading">
-								Reload database <br/><br/> 
-								
+							<label class="control-sidebar-subheading">Reload database</label/>
+							<br/>
 							<button name="button" class="btn btn-primary center-block btn-sm" ><span class="glyphicon glyphicon-refresh"></span> Reload</button>
-							</label>
 							<br/> 
 							<p>
 								This will reload all the database.

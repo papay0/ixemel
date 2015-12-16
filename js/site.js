@@ -144,7 +144,7 @@
  			} );
  			pourcentageOfStudentsAtLeastOneDebt = (numberOfStudentsAtLeastOneDebt / ($('#numberOfStudents').text())*100);
  			pourcentageOfStudentsAtLeastOneDebt = pourcentageOfStudentsAtLeastOneDebt.toFixed(2);
- 			$('#pourcentageOfStudentsAtLeastOneDebt').html(pourcentageOfStudentsAtLeastOneDebt+'<sup style="font-size: 20px">%</sup>');
+ 			$('#pourcentageOfStudentsAtLeastOneDebt').html(pourcentageOfStudentsAtLeastOneDebt);
  		}
  	}); 
 

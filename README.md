@@ -1,9 +1,6 @@
-TO USE THESE SCRIPTS BE SURE TO BE IN THE ROOT PROJECT DIRECTORY
+#Instructions
 
-- To regenerate the main project run the valid_project script in the bash directory
+Please be sure to have Mac OS X or Linux and [**xqilla**](http://xqilla.sourceforge.net/HomePage) installed to run bash scripts (or windows equivalent).
+Run with `php -S localhost:8888` (or another port you choose) and go to your browser at `http://localhost:8888`.
 
-- To generate a xml from a xquery file run the xfromxq script in the bash directory with the name of the xquery file (without the .xq) => be sure to install xqilla first (on a mac : "brew install xqilla"). If you dont specified a name each file will be handled.
-
-- To generate a html from a xml file run the hfromx script in the bash directory with the name of the xml file (without the .xml). If you dont specified a name each file will be handled.
-
-- To generate a html from a XQuery file run the hfromxq script in the bash directory with the name of the xquery file (without the .xq). If you dont specified a name each file will be handled.
+You can udate the xml (students, subjects or teachers) et reload all the new data with the button on the right side on the website or by running manually the `reload` script in the `bash` directory.
